@@ -270,8 +270,8 @@
     <comment>d={[conf database conection info]} a={Katarzyna.Dmitrzak}</comment>
   </data>
   <data name="cmbUsername.ToolTip" xml:space="preserve">
-    <value>User name</value>
-    <comment>d={Nazwa użytkownika} a={Katarzyna.Dmitrzak}</comment>
+    <value>User name1</value>
+    <comment>d={Nazwa użytkownika} a={Konrad.Gujda}</comment>
   </data>
   <data name="frbPl.Text" xml:space="preserve">
     <value>flagRadioButton1</value>
