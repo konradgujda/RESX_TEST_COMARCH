@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LoginApplicationText" xml:space="preserve">
+    <value>версія</value>
+    <comment>d={wersja} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="LoginBadPassword" xml:space="preserve">
+    <value>Неправильний пароль.</value>
+    <comment>d={Złe hasło.} a={}</comment>
+  </data>
+  <data name="LoginConfigDatabaseConnectionError" xml:space="preserve">
+    <value>Помилка під час з'єднання з конфігураційною базою даних.</value>
+    <comment>d={Błąd połączenia z bazą konfiguracyjną.} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="LoginDatabaseConnectionError" xml:space="preserve">
+    <value>Помилка під час підключення з вибраною базою даних.</value>
+    <comment>d={Błąd połączenia z wybraną bazą danych.} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="LoginEmptyConfigDatabase" xml:space="preserve">
+    <value>Немає баз даних. Додати базу даних в менеджері.</value>
+    <comment>d={Brak baz danych. Dodaj bazę w managerze.} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="LoginNoContextForUser" xml:space="preserve">
+    <value>Не можна ввійти в систему без контексту.</value>
+    <comment>d={Nie można logować się bez kontekstu.} a={}</comment>
+  </data>
+  <data name="NoUserAcountErrot" xml:space="preserve">
+    <value>Користувач немає облікового запису на вибраній базі даних.</value>
+    <comment>d={Użytkownik nie posiada konta na wybranej bazie.} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="NoUserAcountInfo" xml:space="preserve">
+    <value>Не можна ввійти до Comarch ALTUM.</value>
+    <comment>d={Nie można zalogować do Comarch ALTUM.} a={}</comment>
+  </data>
+  <data name="HASP_Internal_API_error" xml:space="preserve">
+    <value>Внутрішня помилка API</value>
+    <comment>d={Wewnętrzny błąd API} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_XML_spec" xml:space="preserve">
+    <value>Помилковий формат в  XML</value>
+    <comment>d={Błędny format w XML} a={}</comment>
+  </data>
+  <data name="HASP_Vendor_code_unknown_to_API_library_run_apigento_make_it_known" xml:space="preserve">
+    <value>Не відомий код продавця для бібліотеки API</value>
+    <comment>d={Nieznany kod sprzedawcy dla biblioteki API} a={}</comment>
+  </data>
+  <data name="HASP_Vendor_lib_cannot_be_found" xml:space="preserve">
+    <value>Не можна знайти бібліотеки продавця</value>
+    <comment>d={Nie można odnaleźć biblioteki sprzedawcy} a={}</comment>
+  </data>
+  <data name="HASP_Vendor_lib_cannot_be_loaded" xml:space="preserve">
+    <value>Бібліотека продавця не можу бути завантажена</value>
+    <comment>d={Biblioteka sprzedawcy nie może zostać załadowana} a={}</comment>
+  </data>
+  <data name="HASP_Virtual_machine_detected" xml:space="preserve">
+    <value>Знайдено віртуальну машину</value>
+    <comment>d={Wykryto wirtualną maszynę} a={}</comment>
+  </data>
+  <data name="ConversionSuccess" xml:space="preserve">
+    <value>Виконано конверсію бази даних {0}</value>
+    <comment>d={Konwersja bazy {0} zakończona sukcesem} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="DatabaseNotActual" xml:space="preserve">
+    <value>Версія бази даних {0} не актуальна. Чи розпочати конверсію бази даних до поточної версії?</value>
+    <comment>d={Wersja bazy {0} nie jest aktualna. Czy rozpocząć konwersję bazy do aktualnej wersji?} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="DatabaseVersion" xml:space="preserve">
+    <value>Версія бази даних</value>
+    <comment>d={Wersja bazy} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="HASP_Already_logged_in" xml:space="preserve">
+    <value>Уже ввійшов</value>
+    <comment>d={Już zalogowany} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="HASP_Unable_to_excecute_complete_the_operation" xml:space="preserve">
+    <value>Не можна виконати/завершити операції</value>
+    <comment>d={Nie można wykonać/dokończyć operacji} a={}</comment>
+  </data>
+  <data name="HASP_Unknown_algorithm" xml:space="preserve">
+    <value>Не відомий алгоритм</value>
+    <comment>d={Nieznany algorytm} a={}</comment>
+  </data>
+  <data name="IfBackup" xml:space="preserve">
+    <value>Чи виконати запасну копію бази даних перед конверсією?</value>
+    <comment>d={Czy chcesz zrobić kopię zapasową bazy przed konwersją?} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="ManyConnections" xml:space="preserve">
+    <value>До бази даних {0} підключені інші особи. Чи перервати підключення і розпочати конверсію?</value>
+    <comment>d={Do bazy {0} są podłączone inne osoby. Czy przerwać połączenia i rozpocząć konwersję?} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="NoAccess" xml:space="preserve">
+    <value>Немає відповідних повноважень до конверсії бази даних {0}</value>
+    <comment>d={Brak odpowiednich uprawnień do konwersji bazy {0}} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="NotCompleteConversion" xml:space="preserve">
+    <value>Не виконано повної конверсії бази даних {0}. Версія бази даних: {1}</value>
+    <comment>d={Nie udało się dokonać pełnej konwersji bazy {0}. Obecna wersja bazy: {1}} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="HASP_Unknown_invalid_feature_id_option" xml:space="preserve">
+    <value>Не відоме/помилкове id ознаки</value>
+    <comment>d={Nieznane/błędne id cechy} a={}</comment>
+  </data>
+  <data name="ErrorGettingVersion" xml:space="preserve">
+    <value>Помилка під час завантаження версії бази даних {0}. Можливо немає конфігураційної бази даних. Завантажити менеджер баз даних.</value>
+    <comment>d={Błąd przy pobieraniu wersji bazy {0}. Możliwy brak bazy konfiguracyjnej. Uruchom menadżera baz.} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="HASP_A_parameter_is_invalid" xml:space="preserve">
+    <value>Неправильний параметр</value>
+    <comment>d={Niewłaściwy parametr} a={}</comment>
+  </data>
+  <data name="HASP_A_required_API_dynamic_library_was_not_found" xml:space="preserve">
+    <value>Необхідна динамічна бібліотека API не була знайдена</value>
+    <comment>d={Wymagana dynamiczna biblioteka API nie została odnaleziona} a={}</comment>
+  </data>
+  <data name="HASP_Already_logged_out" xml:space="preserve">
+    <value>Уже вийшов</value>
+    <comment>d={Już wylogowany} a={}</comment>
+  </data>
+  <data name="HASP_Another_update_must_be_installed_first" xml:space="preserve">
+    <value>Інші актуалізації повинні бути установлені раніше</value>
+    <comment>d={Inne uaktualnienie musi zostać zainstalowane wcześniej} a={}</comment>
+  </data>
+  <data name="HASP_Broken_session" xml:space="preserve">
+    <value>Зупинена сесія</value>
+    <comment>d={Zerwana sesja} a={}</comment>
+  </data>
+  <data name="HASP_Calling_invalid_object" xml:space="preserve">
+    <value>Виклик невідповідного об'єкта</value>
+    <comment>d={Wywoływanie niewłaściwego obiektu} a={}</comment>
+  </data>
+  <data name="HASP_Capability_is_not_available" xml:space="preserve">
+    <value>Недостатня функціональність</value>
+    <comment>d={Funkcjonalność niedostępna} a={}</comment>
+  </data>
+  <data name="HASP_Clock_out_of_power" xml:space="preserve">
+    <value>Розряджений акумулятор годинника</value>
+    <comment>d={Wyczerpana bateria zegara} a={}</comment>
+  </data>
+  <data name="HASP_Communication_error_between_application_and_local_LM" xml:space="preserve">
+    <value>Помилка комунікації між аплікацією і локальним сервісом ліцензії</value>
+    <comment>d={Bład komunikacji pomiędzy aplikacją i lokalnym serwisem licencji} a={}</comment>
+  </data>
+  <data name="HASP_Communication_error_between_local_and_remote_LM" xml:space="preserve">
+    <value>Помилка комунікації між локальним, а дистанційним сервісом ліцензії</value>
+    <comment>d={Błąd komunikacji pomiędzy lokalnym a zdalnym serwisem licencji} a={}</comment>
+  </data>
+  <data name="HASP_En_decryption_length_too_short" xml:space="preserve">
+    <value>Кодовані/Розкодовані дані короткі</value>
+    <comment>d={Kodowane/Dekodowane dane są zbyt krótkie} a={}</comment>
+  </data>
+  <data name="HASP_Feature_access_denied" xml:space="preserve">
+    <value>Заборонений доступ до ознаки</value>
+    <comment>d={Zabroniony dostęp do cechy} a={}</comment>
+  </data>
+  <data name="HASP_Feature_not_found" xml:space="preserve">
+    <value>Не знайдено вказаної ознаки</value>
+    <comment>d={Nie odnaleziono podanej cechy} a={}</comment>
+  </data>
+  <data name="HASP_Feature_type_not_implemented" xml:space="preserve">
+    <value>Не імплементований вид ознаки</value>
+    <comment>d={Niezaimplementowany typ cechy} a={}</comment>
+  </data>
+  <data name="HASP_Generic_error_from_host_system_call" xml:space="preserve">
+    <value>Внутрішня помилка операційної системи</value>
+    <comment>d={Wewnętrzny błąd systemu operacyjnego} a={}</comment>
+  </data>
+  <data name="HASP_Hardware_key_driver_not_found" xml:space="preserve">
+    <value>Не був знайдений ключ обладнання</value>
+    <comment>d={Sprzętowy klucz nie został odnaleziony} a={}</comment>
+  </data>
+  <data name="HASP_HASP_LM_version_too_old" xml:space="preserve">
+    <value>Не відновлена версія сервізу ліцензії</value>
+    <comment>d={Za stara wersja serwisu licencji} a={}</comment>
+  </data>
+  <data name="HASP_HASP_not_found" xml:space="preserve">
+    <value>Не знайдено ключа HASP</value>
+    <comment>d={Nie wykryto klucza HASP} a={}</comment>
+  </data>
+  <data name="HASP_HASP_SL_secure_storage_I_O_error_or_USB_request_error" xml:space="preserve">
+    <value>Помилка I/O безпечного складу HASP SL або помилка вимоги USB</value>
+    <comment>d={Błąd I/O bezpiecznego magazynu HASP SL lub błąd żadania USB} a={}</comment>
+  </data>
+  <data name="HASP_HASP_update_incompatible_with_this_hardware" xml:space="preserve">
+    <value>Актуалізація HASP неузгоджене з цим обладнанням; Ключ HASP заблокований для іншого обладнання</value>
+    <comment>d={Uaktualnienie HASP nie jest kompatybilne z tym sprzętem; Klucz HASP jest zablokowany dla innego sprzętu} a={}</comment>
+  </data>
+  <data name="HASP_Incompatible_feature" xml:space="preserve">
+    <value>Неузгоджена ознака</value>
+    <comment>d={Niekompatybilna cecha} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_date__time" xml:space="preserve">
+    <value>Невідповідна дата або час</value>
+    <comment>d={Niewłaściwa data lub czas} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_file_id_memory_descriptor" xml:space="preserve">
+    <value>Неправильний ідентифікатор файлу / блоку пам'яті</value>
+    <comment>d={Niewłaściwy identyfikator pliku / bloku pamięci} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_handle" xml:space="preserve">
+    <value>Помилкова хватка</value>
+    <comment>d={Błędny uchwyt} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_memory_address" xml:space="preserve">
+    <value>Неправильний адрес в пам'яті</value>
+    <comment>d={Niewłaściwy adres w pamięci} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_port" xml:space="preserve">
+    <value>Неправильний порт</value>
+    <comment>d={Niewłaściwy port} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_port_type" xml:space="preserve">
+    <value>Неправильний вид порту</value>
+    <comment>d={Niewłaściwy typ portu} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_update_object" xml:space="preserve">
+    <value>Неправильний оновлений об'єкт</value>
+    <comment>d={Niewłaściwy uaktualniany obiekt} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="HASP_Invalid_vendor_code" xml:space="preserve">
+    <value>Неправильний код продавця</value>
+    <comment>d={Niewłaściwy kod sprzedawcy} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_XML_scope" xml:space="preserve">
+    <value>Неправильний обсяг в XML</value>
+    <comment>d={Niewłaściwy zakres w XML} a={}</comment>
+  </data>
+  <data name="HASP_Key_with_requested_id_was_not_found" xml:space="preserve">
+    <value>Ключ з потрібним id не був знайдений</value>
+    <comment>d={Klucz z żądanym id nie został odnaleziony} a={}</comment>
+  </data>
+  <data name="HASP_Login_denied_because_of_user_restrictions" xml:space="preserve">
+    <value>Вхід в програму заборонений з причин обмежень накладених на користувача</value>
+    <comment>d={Logowanie zabronione z powodu ograniczeń nałożonych na użytkownika} a={}</comment>
+  </data>
+  <data name="HASP_Memory_allocation_failed" xml:space="preserve">
+    <value>Помилка розміщення пам'яті</value>
+    <comment>d={Błąd alokacji pamięci} a={}</comment>
+  </data>
+  <data name="HASP_No_classic_memory_extension_block_available" xml:space="preserve">
+    <value>Недостатня кількість базової пам'яті</value>
+    <comment>d={Niewystarczająca ilość pamięci podstawowej} a={oresta.porembna}</comment>
+  </data>
+  <data name="HASP_No_feature_matching_scope_found" xml:space="preserve">
+    <value>Не знайдено підходящої ознаки до обсягу</value>
+    <comment>d={Nie znaleziono cech pasującej do zakresu} a={}</comment>
+  </data>
+  <data name="HASP_Real_time_support_not_available" xml:space="preserve">
+    <value>Годинник дійсного часу не підтримується</value>
+    <comment>d={Zegar czasu rzeczywistego nie jest wspierany} a={}</comment>
+  </data>
+  <data name="HASP_Request_not_supported" xml:space="preserve">
+    <value>Завдання не підтримується</value>
+    <comment>d={Żadanie nie jest wspierane} a={}</comment>
+  </data>
+  <data name="HASP_Requested_encryption_algorithm_not_supported" xml:space="preserve">
+    <value>Потрібний алгоритм кодування не підтримується</value>
+    <comment>d={Żądany algorytm kodowanie nie jest wspierany} a={}</comment>
+  </data>
+  <data name="HASP_Secure_channel_communication_error" xml:space="preserve">
+    <value>Помилка сполучення на безпечному каналі</value>
+    <comment>d={Błąd komunikacji na bezpiecznym kanale} a={}</comment>
+  </data>
+  <data name="HASP_Secure_storage_contains_garbage" xml:space="preserve">
+    <value>Неправильні позиції в просторі безпеки.</value>
+    <comment>d={Nieprawidłowe elementy w przestrzeni bezpieczeństwa.} a={}</comment>
+  </data>
+  <data name="HASP_Signature_check_failed" xml:space="preserve">
+    <value>Помилка перевірки сигнатури</value>
+    <comment>d={Błąd sprawdzania sygnatury} a={}</comment>
+  </data>
+  <data name="HASP_Success" xml:space="preserve">
+    <value>Завершено успішно</value>
+    <comment>d={Zakończono powodzeniem} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="HASP_System_time_has_been_tampered" xml:space="preserve">
+    <value>Час системним був маніпульований.</value>
+    <comment>d={Czas systemowy został zmanipulowany.} a={}</comment>
+  </data>
+  <data name="HASP_Terminal_services_remote_terminal_detected" xml:space="preserve">
+    <value>Виявлено термінальні послуги (дистанційний доступ)</value>
+    <comment>d={Wykryto usługi terminalowe (zdalny dostęp)} a={}</comment>
+  </data>
+  <data name="HASP_The_feature_is_expired" xml:space="preserve">
+    <value>Ознака припинилась</value>
+    <comment>d={Cecha wygasła} a={}</comment>
+  </data>
+  <data name="HASP_The_found_and_assigned_API_dynamic_library_could_not_be_verified" xml:space="preserve">
+    <value>Знайдена і підписана бібліотека API не може бути перевірена</value>
+    <comment>d={Znaleziona i podpisana biblioteka API nie może zostać zweryfikowa} a={}</comment>
+  </data>
+  <data name="HASP_Too_many_keys_connected" xml:space="preserve">
+    <value>Під'єднано забагато ключів</value>
+    <comment>d={Podłączono zbyt wiele kluczy} a={}</comment>
+  </data>
+  <data name="HASP_Too_many_open_features" xml:space="preserve">
+    <value>Забагато відкритих ознак</value>
+    <comment>d={Zbyt wiele otwartych cech} a={}</comment>
+  </data>
+  <data name="HASP_Too_many_users" xml:space="preserve">
+    <value>Забагато користувачів</value>
+    <comment>d={Zbyt wielu użytkowników} a={}</comment>
+  </data>
+  <data name="HASP_Trace_log_not_enabled" xml:space="preserve">
+    <value>Стеження логів неможливе</value>
+    <comment>d={Śledzenie logów nie jest możliwe} a={}</comment>
+  </data>
+  <data name="HASP_Unrecognized_info_format" xml:space="preserve">
+    <value>Нерозпізнаний формат інформації</value>
+    <comment>d={Nierozpoznany format informacji} a={}</comment>
+  </data>
+  <data name="HASP_Update_counter_mismatch" xml:space="preserve">
+    <value>Помилка актуалізації чисельника</value>
+    <comment>d={Błąd uaktualnienia licznika} a={}</comment>
+  </data>
+  <data name="HASP_Update_data_consistency_check_failed" xml:space="preserve">
+    <value>Помилка перевірки пов'язання актуальних даних</value>
+    <comment>d={Błąd sprawdzania spójności uaktualnianych danych} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="HASP_Update_installation_not_allowed" xml:space="preserve">
+    <value>Актуалізація встановлення не дозволена</value>
+    <comment>d={Uaktualnienie instalacji jest niedozwolone} a={oresta.porembna}</comment>
+  </data>
+  <data name="HASP_Update_not_supported_by_this_key" xml:space="preserve">
+    <value>Оновлення не підтримується цим ключем</value>
+    <comment>d={Uaktualnienie nie jest wspierane przez ten klucz} a={oresta.porembna}</comment>
+  </data>
+  <data name="HASP_Update_requested_ack_but_no_area_to_return_it" xml:space="preserve">
+    <value>Актуалізація вимагає відповіді, але не знайдено пункту призначення</value>
+    <comment>d={Uaktualnienie wymaga odpowiedzi, ale nie znaleziono punktu docelowego} a={}</comment>
+  </data>
+  <data name="HASP_Update_was_already_installed" xml:space="preserve">
+    <value>Актуалізація було уже установлена</value>
+    <comment>d={Uaktualnienie już zostało zainstalowane} a={}</comment>
+  </data>
+  <data name="ErrorGettingVersionOld" xml:space="preserve">
+    <value>Помилка під час завантаження версії бази даних {0}</value>
+    <comment>d={Błąd przy pobieraniu wersji bazy {0}.} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="BaseNewer" xml:space="preserve">
+    <value>Версія програми є старша, ніж версія вибраної бази даних. Вибрати іншу базу даних або завантажити програму в версії {0}.</value>
+    <comment>d={Wersja aplikacji jest starsza niż wersja wybranej bazy. Wybierz inną bazę lub uruchom aplikację w wersji {0}.} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="ConfBaseNewer" xml:space="preserve">
+    <value>Версія програми є старша, ніж версія конфігураційної бази даних. Завантажити менеджера баз даних, щоб змінити конфігураційну базу даних.</value>
+    <comment>d={Wersja aplikacji jest starsza niż wersja bazy konfiguracyjnej. Uruchom menadżera baz aby zmienić bazę konfiguracyjną.} a={oresta.porembna}</comment>
+  </data>
+  <data name="InternalSystemError" xml:space="preserve">
+    <value>З'явилася несподівана помилка системи.</value>
+    <comment>d={Wystąpił nieoczekiwany błąd systemu.} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="DemoVersion" xml:space="preserve">
+    <value>Програма в демо-версії.</value>
+    <comment>d={Aplikacja w trybie Demo.} a={oresta.porembna}</comment>
+  </data>
+  <data name="BackToNormalVersion" xml:space="preserve">
+    <value>Знайдено ключ HASP. Програма повернулася до повного режиму.</value>
+    <comment>d={Klucz HASP wykryty. Aplikacja powróciła do trybu pełnego.} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="NoHasp" xml:space="preserve">
+    <value>Не знайдено ключа HASP. Програма в демо-версії. Чи поновити спробу з'єднання з ключем HASP?</value>
+    <comment>d={Nie wykryto klucza HASP. Aplikacja w trybie DEMO. Czy ponowic próbę połaczenia z kluczem HASP?} a={oresta.porembna}</comment>
+  </data>
+  <data name="LicenseKeyInfo" xml:space="preserve">
+    <value>Інформація про ліцензію</value>
+    <comment>d={Informacja o licencji} a={}</comment>
+  </data>
+  <data name="LicenseKeyNoValidLicense" xml:space="preserve">
+    <value>У Вас немає ліцензії. Чи розпочати роботу в демо-версії?</value>
+    <comment>d={Nie masz zainstalowanej poprawnej licencji. Czy chcesz rozpocząć pracę w trybie demo?} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="BuyAltumWarning" xml:space="preserve">
+    <value>Купіть повну версію системи.</value>
+    <comment>d={Kup pełną wersję systemu.} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="DaysLeftOfDemoVersionInfo" xml:space="preserve">
+    <value>Ви працюєте на демо-версії. Документи можна створювати ще {0} днів.</value>
+    <comment>d={Pracujesz w trybie demo. Możesz wystawiać dokumenty jeszcze przez {0} dni.} a={oresta.porembna}</comment>
+  </data>
+  <data name="HASP_Driver_or_support_daemon_version_too_old" xml:space="preserve">
+    <value>Драйвер або версія демо неактуальна.</value>
+    <comment>d={Sterownik lub wspierana wersja daemon jest zbyt stara.} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Помилка</value>
+    <comment>d={Błąd} a={}</comment>
+  </data>
+  <data name="UserOffLine" xml:space="preserve">
+    <value>З'явилася помилка під час підключення з базою даних.
+Перевірте кабель мережі.</value>
+    <comment>d={Wystąpił problem połączenia z bazą danych. 
+Sprawdź kabel sieciowy.} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="LicenseManagerToolNotFound" xml:space="preserve">
+    <value>Не знайдено інструменту конфігурації сервісу ліцензії.</value>
+    <comment>d={Nie znaleziono narzędzia konfiguracji serwisu licencyjnego.} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="EmptyNameNotAllowed" xml:space="preserve">
+    <value>Назва сервера не може бути порожня!</value>
+    <comment>d={Nazwa serwera nie moze być pusta!} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Порт</value>
+    <comment>d={Port} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="PortFieldReq" xml:space="preserve">
+    <value>Не вказано порту послуги ліцензії.</value>
+    <comment>d={Nie wskazano portu usługi licencyjnej.} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="PortParseErr" xml:space="preserve">
+    <value>Значення у полі '{0}' неправильне!</value>
+    <comment>d={Wartość w polu '{0}' jest nieprawidłowa!} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="NoCompanyUnits" xml:space="preserve">
+    <value>Користувач не приписаний до жодного центру.</value>
+    <comment>d={Użytkownik nie jest przypisany do żadnego centrum.} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="CredentialsFormAppText" xml:space="preserve">
+    <value>Параметри входу</value>
+    <comment>d={Parametry logowania} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="CredentialsFormWindowText" xml:space="preserve">
+    <value>Конфігураційна база даних</value>
+    <comment>d={Baza konfiguracyjna} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="DemoInfoFormWindowText" xml:space="preserve">
+    <value>Повідомлення про демонстраційну версію</value>
+    <comment>d={Powiadomienie o wersji demonstracyjnej} a={oresta.porembna}</comment>
+  </data>
+  <data name="LicenseServerFormWindowText" xml:space="preserve">
+    <value>Ліцензування</value>
+    <comment>d={Licencjonowanie} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="LicenseServerFromAppText" xml:space="preserve">
+    <value>Вибір сервера ліцензії</value>
+    <comment>d={Wybór serwera licencji} a={Oresta.Porembna}</comment>
+  </data>
+  <data name="NoLoginUntilSynchronization" xml:space="preserve">
+    <value>Щоб увійти в систему, необхідно виконати синхронізацію.</value>
+    <comment>d={Do zalogowania się wymagane jest przeprowadzenie synchronizacji} a={Oresta.Porembna}</comment>
+  </data>
+</root>

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LoginApplicationText" xml:space="preserve">
+    <value>версия</value>
+    <comment>ALTUM wersja 3.1</comment>
+  </data>
+  <data name="LoginBadPassword" xml:space="preserve">
+    <value>Неправильный пароль.</value>
+    <comment>Złe hasło.</comment>
+  </data>
+  <data name="LoginConfigDatabaseConnectionError" xml:space="preserve">
+    <value>Ошибка соединения с конфигурационной базой.</value>
+    <comment>Błąd połączenia z bazą konfiguracyjną.</comment>
+  </data>
+  <data name="LoginDatabaseConnectionError" xml:space="preserve">
+    <value>Ошибка соединения с выбранной базой данных.</value>
+    <comment>Błąd połączenia z wybraną bazą danych.</comment>
+  </data>
+  <data name="LoginEmptyConfigDatabase" xml:space="preserve">
+    <value>Отсутствие баз данных. Добавить базу в менеджере.</value>
+    <comment>Brak baz danych. Dodaj bazę w managerze.</comment>
+  </data>
+  <data name="LoginNoContextForUser" xml:space="preserve">
+    <value>Не возможно регистрироваться без контекста.</value>
+    <comment>Nie można logować się bez kontekstu.</comment>
+  </data>
+  <data name="NoUserAcountErrot" xml:space="preserve">
+    <value>Пользователь не имеет учетной записи пользователя в выбранной базе.</value>
+    <comment>Użytkownik nie posiada konta na wybranej bazie.</comment>
+  </data>
+  <data name="DatabaseVersion" xml:space="preserve">
+    <value>Версия базы</value>
+    <comment>Wersja bazy</comment>
+  </data>
+  <data name="HASP_Unknown_algorithm" xml:space="preserve">
+    <value>Неизвестный алгоритм</value>
+    <comment>Nieznany algorytm</comment>
+  </data>
+  <data name="HASP_Invalid_XML_spec" xml:space="preserve">
+    <value>Ошибочный формат в XML</value>
+    <comment>Błędny format w XML</comment>
+  </data>
+  <data name="HASP_Too_many_users" xml:space="preserve">
+    <value>Замного пользователей</value>
+    <comment>Zbyt wielu użytkowników</comment>
+  </data>
+  <data name="ErrorGettingVersionOld" xml:space="preserve">
+    <value>Ошибка при загрузке версии базы {0}.</value>
+    <comment>Błąd przy pobieraniu wersji bazy {0}.</comment>
+  </data>
+  <data name="InternalSystemError" xml:space="preserve">
+    <value>Возникла не предусмотренная ошибка системы.</value>
+    <comment>Wystąpił nieoczekiwany błąd systemu.</comment>
+  </data>
+  <data name="HASP_Unknown_invalid_feature_id_option" xml:space="preserve">
+    <value>Неизвестное/ощибочные id признака</value>
+    <comment>Nieznane/błędne id cechy</comment>
+  </data>
+  <data name="HASP_Capability_is_not_available" xml:space="preserve">
+    <value>Недоступная функциональность</value>
+    <comment>Funkcjonalność niedostępna</comment>
+  </data>
+  <data name="HASP_Unable_to_excecute_complete_the_operation" xml:space="preserve">
+    <value>Нельзя выполнить/запончить операции</value>
+    <comment>Nie można wykonać/dokończyć operacji</comment>
+  </data>
+  <data name="HASP_Generic_error_from_host_system_call" xml:space="preserve">
+    <value>Внутренняя ошибка операционной системы</value>
+    <comment>Wewnętrzny błąd systemu operacyjnego</comment>
+  </data>
+  <data name="NoUserAcountInfo" xml:space="preserve">
+    <value>Не возможна регистация к Comarch ALTUM.</value>
+    <comment>Nie można zalogować do Comarch ALTUM.</comment>
+  </data>
+  <data name="HASP_HASP_not_found" xml:space="preserve">
+    <value>Не найдено ключ HASP</value>
+    <comment>Nie wykryto klucza HASP</comment>
+  </data>
+  <data name="HASP_Success" xml:space="preserve">
+    <value>Завершено успехом</value>
+    <comment>Zakończono powodzeniem</comment>
+  </data>
+  <data name="ConversionSuccess" xml:space="preserve">
+    <value>Конверсия базы {0} завершена успехом</value>
+    <comment>Konwersja bazy {0} zakończona sukcesem</comment>
+  </data>
+  <data name="HASP_A_parameter_is_invalid" xml:space="preserve">
+    <value>Неправильный параметр</value>
+    <comment>Niewłaściwy parametr</comment>
+  </data>
+  <data name="HASP_Invalid_date__time" xml:space="preserve">
+    <value>Неправильная дата или время</value>
+    <comment>Niewłaściwa data lub czas</comment>
+  </data>
+  <data name="LicenseKeyInfo" xml:space="preserve">
+    <value>License Information</value>
+    <comment>License Information</comment>
+  </data>
+  <data name="LicenseKeyNoValidLicense" xml:space="preserve">
+    <value>You have no valid license installed!
+Do you want to start in demo mode?</value>
+    <comment>You have no valid license installed!
+Do you want to start in demo mode?</comment>
+  </data>
+  <data name="HASP_Already_logged_in" xml:space="preserve">
+    <value>Зарегистрирован</value>
+    <comment>Już zalogowany</comment>
+  </data>
+  <data name="HASP_Already_logged_out" xml:space="preserve">
+    <value>Зарегистрирован</value>
+    <comment>Już wylogowany</comment>
+  </data>
+</root>

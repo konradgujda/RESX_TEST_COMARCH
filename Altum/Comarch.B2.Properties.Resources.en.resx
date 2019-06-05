@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LoginApplicationText" xml:space="preserve">
+    <value>version</value>
+    <comment>d={wersja} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="LoginBadPassword" xml:space="preserve">
+    <value>The entered user data is invalid. Try again or contact the system administrator.</value>
+    <comment>d={Wprowadzone dane Użytkownika są niepoprawne. Spróbuj ponownie lub skontaktuj się z administratorem systemu.} a={Nina.Perek}</comment>
+  </data>
+  <data name="LoginEmptyConfigDatabase" xml:space="preserve">
+    <value>No databases. Add a database in the Database Manager.</value>
+    <comment>d={Brak baz danych. Dodaj bazę w menedżerze.} a={katarzyna.dmitrzak}</comment>
+  </data>
+  <data name="LoginNoContextForUser" xml:space="preserve">
+    <value>You cannot log in without context.</value>
+    <comment>d={Nie można logować się bez kontekstu.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="NoUserAcountErrot" xml:space="preserve">
+    <value>The user does not have an account on the selected database.</value>
+    <comment>d={Użytkownik nie posiada konta na wybranej bazie.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="NoUserAcountInfo" xml:space="preserve">
+    <value>Cannot log in to {0}.</value>
+    <comment>d={Nie można zalogować się do {0}.} a={Nina.Perek}</comment>
+  </data>
+  <data name="HASP_A_parameter_is_invalid" xml:space="preserve">
+    <value>Invalid parameter.</value>
+    <comment>d={Niewłaściwy parametr} a={}</comment>
+  </data>
+  <data name="HASP_A_required_API_dynamic_library_was_not_found" xml:space="preserve">
+    <value>A required API dynamic library was not found.</value>
+    <comment>d={Wymagana dynamiczna biblioteka API nie została odnaleziona} a={}</comment>
+  </data>
+  <data name="HASP_Already_logged_in" xml:space="preserve">
+    <value>Already logged in.</value>
+    <comment>d={Już zalogowany} a={}</comment>
+  </data>
+  <data name="HASP_Already_logged_out" xml:space="preserve">
+    <value>Already logged out.</value>
+    <comment>d={Już wylogowany} a={}</comment>
+  </data>
+  <data name="HASP_Another_update_must_be_installed_first" xml:space="preserve">
+    <value>Another update must be installed first.</value>
+    <comment>d={Inne uaktualnienie musi zostać zainstalowane wcześniej} a={}</comment>
+  </data>
+  <data name="HASP_Capability_is_not_available" xml:space="preserve">
+    <value>Capability is not available.</value>
+    <comment>d={Funkcjonalność niedostępna} a={}</comment>
+  </data>
+  <data name="HASP_Clock_out_of_power" xml:space="preserve">
+    <value>Clock out of power.</value>
+    <comment>d={Wyczerpana bateria zegara} a={}</comment>
+  </data>
+  <data name="HASP_Communication_error_between_application_and_local_LM" xml:space="preserve">
+    <value>Communication error between application and local LM.</value>
+    <comment>d={Bład komunikacji pomiędzy aplikacją i lokalnym serwisem licencji} a={}</comment>
+  </data>
+  <data name="HASP_Communication_error_between_local_and_remote_LM" xml:space="preserve">
+    <value>Communication error between local and remote LM.</value>
+    <comment>d={Błąd komunikacji pomiędzy lokalnym a zdalnym serwisem licencji} a={}</comment>
+  </data>
+  <data name="HASP_Feature_access_denied" xml:space="preserve">
+    <value>Feature access denied.</value>
+    <comment>d={Zabroniony dostęp do cechy} a={}</comment>
+  </data>
+  <data name="HASP_Feature_not_found" xml:space="preserve">
+    <value>Feature not found.</value>
+    <comment>d={Nie odnaleziono podanej cechy} a={}</comment>
+  </data>
+  <data name="HASP_Hardware_key_driver_not_found" xml:space="preserve">
+    <value>Hardware key driver not found.</value>
+    <comment>d={Sprzętowy klucz nie został odnaleziony} a={}</comment>
+  </data>
+  <data name="HASP_Incompatible_feature" xml:space="preserve">
+    <value>Incompatible feature.</value>
+    <comment>d={Niekompatybilna cecha} a={}</comment>
+  </data>
+  <data name="HASP_Internal_API_error" xml:space="preserve">
+    <value>Internal API error.</value>
+    <comment>d={Wewnętrzny błąd API} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_date__time" xml:space="preserve">
+    <value>Invalid date / time.</value>
+    <comment>d={Niewłaściwa data lub czas} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_port" xml:space="preserve">
+    <value>Invalid port.</value>
+    <comment>d={Niewłaściwy port} a={}</comment>
+  </data>
+  <data name="HASP_Requested_encryption_algorithm_not_supported" xml:space="preserve">
+    <value>Requested encryption algorithm not supported.</value>
+    <comment>d={Żądany algorytm kodowanie nie jest wspierany} a={}</comment>
+  </data>
+  <data name="HASP_System_time_has_been_tampered" xml:space="preserve">
+    <value>System time has been tampered.</value>
+    <comment>d={Czas systemowy został zmanipulowany.} a={}</comment>
+  </data>
+  <data name="HASP_The_feature_is_expired" xml:space="preserve">
+    <value>The feature is expired.</value>
+    <comment>d={Cecha wygasła} a={}</comment>
+  </data>
+  <data name="HASP_Too_many_open_features" xml:space="preserve">
+    <value>Too many open features.</value>
+    <comment>d={Zbyt wiele otwartych cech} a={}</comment>
+  </data>
+  <data name="HASP_Too_many_users" xml:space="preserve">
+    <value>Too many users.</value>
+    <comment>d={Zbyt wielu użytkowników} a={}</comment>
+  </data>
+  <data name="HASP_Unable_to_excecute_complete_the_operation" xml:space="preserve">
+    <value>Unable to execute/complete the operation.</value>
+    <comment>d={Nie można wykonać/dokończyć operacji} a={}</comment>
+  </data>
+  <data name="HASP_Unknown_algorithm" xml:space="preserve">
+    <value>Unknown algorithm.</value>
+    <comment>d={Nieznany algorytm} a={}</comment>
+  </data>
+  <data name="HASP_Unknown_invalid_feature_id_option" xml:space="preserve">
+    <value>Unknown/invalid feature id option.</value>
+    <comment>d={Nieznane/błędne id cechy} a={}</comment>
+  </data>
+  <data name="HASP_Unrecognized_info_format" xml:space="preserve">
+    <value>Unrecognized info format.</value>
+    <comment>d={Nierozpoznany format informacji} a={}</comment>
+  </data>
+  <data name="HASP_Update_installation_not_allowed" xml:space="preserve">
+    <value>Update installation not allowed.</value>
+    <comment>d={Uaktualnienie instalacji jest niedozwolone} a={}</comment>
+  </data>
+  <data name="HASP_Update_was_already_installed" xml:space="preserve">
+    <value>Update was already installed.</value>
+    <comment>d={Uaktualnienie już zostało zainstalowane} a={}</comment>
+  </data>
+  <data name="HASP_Vendor_code_unknown_to_API_library_run_apigento_make_it_known" xml:space="preserve">
+    <value>Vendor code unknown to API library</value>
+    <comment>d={Nieznany kod sprzedawcy dla biblioteki API} a={}</comment>
+  </data>
+  <data name="HASP_Vendor_lib_cannot_be_found" xml:space="preserve">
+    <value>Vendor lib cannot be found.</value>
+    <comment>d={Nie można odnaleźć biblioteki sprzedawcy} a={}</comment>
+  </data>
+  <data name="HASP_Vendor_lib_cannot_be_loaded" xml:space="preserve">
+    <value>Vendor lib cannot be loaded.</value>
+    <comment>d={Biblioteka sprzedawcy nie może zostać załadowana} a={}</comment>
+  </data>
+  <data name="HASP_Calling_invalid_object" xml:space="preserve">
+    <value>Calling invalid object.</value>
+    <comment>d={Wywoływanie niewłaściwego obiektu} a={}</comment>
+  </data>
+  <data name="HASP_Feature_type_not_implemented" xml:space="preserve">
+    <value>Feature type not implemented.</value>
+    <comment>d={Niezaimplementowany typ cechy} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_file_id_memory_descriptor" xml:space="preserve">
+    <value>Inappropriate file id / memory descriptor.</value>
+    <comment>d={Niewłaściwy identyfikator pliku / bloku pamięci} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_memory_address" xml:space="preserve">
+    <value>Invalid memory address.</value>
+    <comment>d={Niewłaściwy adres w pamięci} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_port_type" xml:space="preserve">
+    <value>Invalid port type.</value>
+    <comment>d={Niewłaściwy typ portu} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_update_object" xml:space="preserve">
+    <value>Invalid update object.</value>
+    <comment>d={Niewłaściwy uaktualniany obiekt} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_vendor_code" xml:space="preserve">
+    <value>Invalid vendor code.</value>
+    <comment>d={Niewłaściwy kod sprzedawcy} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_XML_scope" xml:space="preserve">
+    <value>Invalid XML scope.</value>
+    <comment>d={Niewłaściwy zakres w XML} a={}</comment>
+  </data>
+  <data name="HASP_Key_with_requested_id_was_not_found" xml:space="preserve">
+    <value>Key with requested id was not found.</value>
+    <comment>d={Klucz z żądanym id nie został odnaleziony} a={}</comment>
+  </data>
+  <data name="HASP_Broken_session" xml:space="preserve">
+    <value>Broken session.</value>
+    <comment>d={Zerwana sesja} a={}</comment>
+  </data>
+  <data name="HASP_En_decryption_length_too_short" xml:space="preserve">
+    <value>En-/decryption length too short.</value>
+    <comment>d={Kodowane/Dekodowane dane są zbyt krótkie} a={}</comment>
+  </data>
+  <data name="HASP_HASP_SL_secure_storage_I_O_error_or_USB_request_error" xml:space="preserve">
+    <value>HASP SL secure storage I/O error or USB request error.</value>
+    <comment>d={Błąd I/O bezpiecznego magazynu HASP SL lub błąd żadania USB} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_handle" xml:space="preserve">
+    <value>Invalid handle.</value>
+    <comment>d={Błędny uchwyt} a={}</comment>
+  </data>
+  <data name="HASP_Login_denied_because_of_user_restrictions" xml:space="preserve">
+    <value>Login denied because of user restrictions.</value>
+    <comment>d={Logowanie zabronione z powodu ograniczeń nałożonych na użytkownika} a={}</comment>
+  </data>
+  <data name="HASP_Memory_allocation_failed" xml:space="preserve">
+    <value>Memory allocation failed.</value>
+    <comment>d={Błąd alokacji pamięci} a={}</comment>
+  </data>
+  <data name="HASP_No_classic_memory_extension_block_available" xml:space="preserve">
+    <value>No classic memory extension block available.</value>
+    <comment>d={Niewystarczająca ilość pamięci podstawowej} a={}</comment>
+  </data>
+  <data name="HASP_No_feature_matching_scope_found" xml:space="preserve">
+    <value>No feature matching scope found.</value>
+    <comment>d={Nie znaleziono cech pasującej do zakresu} a={}</comment>
+  </data>
+  <data name="HASP_Terminal_services_remote_terminal_detected" xml:space="preserve">
+    <value>Terminal services (remote terminal) detected.</value>
+    <comment>d={Wykryto usługi terminalowe (zdalny dostęp)} a={}</comment>
+  </data>
+  <data name="HASP_Too_many_keys_connected" xml:space="preserve">
+    <value>Too many keys connected.</value>
+    <comment>d={Podłączono zbyt wiele kluczy} a={}</comment>
+  </data>
+  <data name="HASP_Trace_log_not_enabled" xml:space="preserve">
+    <value>Trace log not enabled.</value>
+    <comment>d={Śledzenie logów nie jest możliwe} a={}</comment>
+  </data>
+  <data name="HASP_Update_not_supported_by_this_key" xml:space="preserve">
+    <value>Update not supported by this key.</value>
+    <comment>d={Uaktualnienie nie jest wspierane przez ten klucz} a={}</comment>
+  </data>
+  <data name="HASP_Virtual_machine_detected" xml:space="preserve">
+    <value>Virtual machine detected.</value>
+    <comment>d={Wykryto wirtualną maszynę} a={}</comment>
+  </data>
+  <data name="HASP_Driver_or_support_daemon_version_too_old" xml:space="preserve">
+    <value>The driver or the supported deamon version is too old.</value>
+    <comment>d={Sterownik lub wspierana wersja daemon jest zbyt stara.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="HASP_Generic_error_from_host_system_call" xml:space="preserve">
+    <value>Generic error from host system call.</value>
+    <comment>d={Wewnętrzny błąd systemu operacyjnego} a={}</comment>
+  </data>
+  <data name="HASP_HASP_LM_version_too_old" xml:space="preserve">
+    <value>HASP LM version too old.</value>
+    <comment>d={Za stara wersja serwisu licencji} a={}</comment>
+  </data>
+  <data name="HASP_HASP_not_found" xml:space="preserve">
+    <value>HASP not found.</value>
+    <comment>d={Nie wykryto klucza HASP} a={}</comment>
+  </data>
+  <data name="HASP_HASP_update_incompatible_with_this_hardware" xml:space="preserve">
+    <value>HASP update incompatible with this hardware; HASP key is locked to another hardware.</value>
+    <comment>d={Uaktualnienie HASP nie jest kompatybilne z tym sprzętem; Klucz HASP jest zablokowany dla innego sprzętu} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_XML_spec" xml:space="preserve">
+    <value>Invalid XML specification.</value>
+    <comment>d={Błędny format w XML} a={}</comment>
+  </data>
+  <data name="HASP_Real_time_support_not_available" xml:space="preserve">
+    <value>Real time support not available.</value>
+    <comment>d={Zegar czasu rzeczywistego nie jest wspierany} a={}</comment>
+  </data>
+  <data name="HASP_Request_not_supported" xml:space="preserve">
+    <value>Request not supported.</value>
+    <comment>d={Żadanie nie jest wspierane} a={}</comment>
+  </data>
+  <data name="HASP_Secure_channel_communication_error" xml:space="preserve">
+    <value>Secure channel communication error.</value>
+    <comment>d={Błąd komunikacji na bezpiecznym kanale} a={}</comment>
+  </data>
+  <data name="HASP_Secure_storage_contains_garbage" xml:space="preserve">
+    <value>Secure storage contains garbage.</value>
+    <comment>d={Nieprawidłowe elementy w przestrzeni bezpieczeństwa.} a={}</comment>
+  </data>
+  <data name="HASP_Signature_check_failed" xml:space="preserve">
+    <value>Signature check failed.</value>
+    <comment>d={Błąd sprawdzania sygnatury} a={}</comment>
+  </data>
+  <data name="HASP_Success" xml:space="preserve">
+    <value>Success.</value>
+    <comment>d={Zakończono powodzeniem} a={}</comment>
+  </data>
+  <data name="HASP_The_found_and_assigned_API_dynamic_library_could_not_be_verified" xml:space="preserve">
+    <value>The found and signed API dynamic library could not be verified.</value>
+    <comment>d={Znaleziona i podpisana biblioteka API nie może zostać zweryfikowa} a={}</comment>
+  </data>
+  <data name="HASP_Update_counter_mismatch" xml:space="preserve">
+    <value>Update counter mismatch.</value>
+    <comment>d={Błąd uaktualnienia licznika} a={}</comment>
+  </data>
+  <data name="HASP_Update_data_consistency_check_failed" xml:space="preserve">
+    <value>Update data consistency check failed.</value>
+    <comment>d={Błąd sprawdzania spójności uaktualnianych danych} a={}</comment>
+  </data>
+  <data name="HASP_Update_requested_ack_but_no_area_to_return_it" xml:space="preserve">
+    <value>Update requested acknowledgment, but no area to return it.</value>
+    <comment>d={Uaktualnienie wymaga odpowiedzi, ale nie znaleziono punktu docelowego} a={}</comment>
+  </data>
+  <data name="LoginConfigDatabaseConnectionError" xml:space="preserve">
+    <value>Error connecting with the configuration database.</value>
+    <comment>d={Błąd połączenia z bazą konfiguracyjną.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="LoginDatabaseConnectionError" xml:space="preserve">
+    <value>Error connecting to the selected database.</value>
+    <comment>d={Błąd połączenia z wybraną bazą danych.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="ConversionSuccess" xml:space="preserve">
+    <value>Conversion of {0} database completed successfully.</value>
+    <comment>d={Konwersja bazy {0} zakończona sukcesem} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="DatabaseVersion" xml:space="preserve">
+    <value>Database version</value>
+    <comment>d={Wersja bazy} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="NotCompleteConversion" xml:space="preserve">
+    <value>Failed to make a full conversion of {0} database. The current database version is: {1}.</value>
+    <comment>d={Nie udało się dokonać pełnej konwersji bazy {0}. Obecna wersja bazy: {1}} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="DatabaseNotActual" xml:space="preserve">
+    <value>The version of {0} database is not up-to-date. Would you like to start converting the database to the current version?</value>
+    <comment>d={Wersja bazy {0} nie jest aktualna. Czy rozpocząć konwersję bazy do aktualnej wersji?} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="ErrorGettingVersion" xml:space="preserve">
+    <value>Error retrieving version of {0} database. Possibly, there is no configuration database. Please run the database manager.</value>
+    <comment>d={Błąd przy pobieraniu wersji bazy {0}. Możliwy brak bazy konfiguracyjnej. Uruchom menadżera baz.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="IfBackup" xml:space="preserve">
+    <value>Would you like to make a backup copy of the database before conversion?</value>
+    <comment>d={Czy chcesz zrobić kopię zapasową bazy przed konwersją?} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="ManyConnections" xml:space="preserve">
+    <value>Other persons are connected to the database {0}. Would you like to disconnect and start conversion?</value>
+    <comment>d={Do bazy {0} są podłączone inne osoby. Czy przerwać połączenia i rozpocząć konwersję?} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="NoAccess" xml:space="preserve">
+    <value>Permissions denied to convert database {0}.</value>
+    <comment>d={Brak odpowiednich uprawnień do konwersji bazy {0}} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="ErrorGettingVersionOld" xml:space="preserve">
+    <value>Error retrieving version of {0} database.</value>
+    <comment>d={Błąd przy pobieraniu wersji bazy {0}.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="BaseNewer" xml:space="preserve">
+    <value>The version of the application is older than the version of the selected database. Select another database or run the application in version {0}.</value>
+    <comment>d={Wersja aplikacji jest starsza niż wersja wybranej bazy. Wybierz inną bazę lub uruchom aplikację w wersji {0}.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="ConfBaseNewer" xml:space="preserve">
+    <value>The version of the application is older than the version of the configuration database. Please run the database manager to change the configuration database.</value>
+    <comment>d={Wersja aplikacji jest starsza niż wersja bazy konfiguracyjnej. Uruchom menadżera baz aby zmienić bazę konfiguracyjną.} a={katarzyna.dmitrzak}</comment>
+  </data>
+  <data name="InternalSystemError" xml:space="preserve">
+    <value>Unexpected system error occurred.</value>
+    <comment>d={Wystąpił nieoczekiwany błąd systemu.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="DemoVersion" xml:space="preserve">
+    <value>Application in Demo mode.</value>
+    <comment>d={Aplikacja w trybie Demo.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="BackToNormalVersion" xml:space="preserve">
+    <value>HASP key detected. The application is back to full mode.</value>
+    <comment>d={Klucz HASP wykryty. Aplikacja powróciła do trybu pełnego.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="NoHasp" xml:space="preserve">
+    <value>A HASP key was not detected. The application is running in DEMO mode. Would you like to retry to connect with the HASP key?</value>
+    <comment>d={Nie wykryto klucza HASP. Aplikacja w trybie DEMO. Czy ponowic próbę połaczenia z kluczem HASP?} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="LicenseKeyInfo" xml:space="preserve">
+    <value>License Information</value>
+    <comment>d={Informacja o licencji} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="LicenseKeyNoValidLicense" xml:space="preserve">
+    <value>You have no valid license installed! Would you like to run the application in demo mode?</value>
+    <comment>d={Nie masz zainstalowanej poprawnej licencji. Czy chcesz rozpocząć pracę w trybie demo?} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="DaysLeftOfDemoVersionInfo" xml:space="preserve">
+    <value>You are working in demo mode. You are allowed to generate documents for {0} more days.</value>
+    <comment>d={Pracujesz w trybie demo. Możesz wystawiać dokumenty jeszcze przez {0} dni.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="BuyAltumWarning" xml:space="preserve">
+    <value>Purchase full version of the system.</value>
+    <comment>d={Kup pełną wersję systemu.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Error</value>
+    <comment>d={Błąd} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="UserOffLine" xml:space="preserve">
+    <value>Failed to establish connection with the database. Please check the network cable.</value>
+    <comment>d={Nie udało się nawiązać połączenia z bazą danych. Sprawdź kabel sieciowy.} a={katarzyna.dmitrzak}</comment>
+  </data>
+  <data name="LicenseManagerToolNotFound" xml:space="preserve">
+    <value>Configuration tool of the license service not found.</value>
+    <comment>d={Nie znaleziono narzędzia konfiguracji serwisu licencyjnego.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="EmptyNameNotAllowed" xml:space="preserve">
+    <value>The server name cannot be empty!</value>
+    <comment>d={Nazwa serwera nie moze być pusta!} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Port</value>
+    <comment>d={Port} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="PortFieldReq" xml:space="preserve">
+    <value>The license service port is not indicated.</value>
+    <comment>d={Nie wskazano portu usługi licencyjnej.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="PortParseErr" xml:space="preserve">
+    <value>Value in the field '{0}' is invalid!</value>
+    <comment>d={Wartość w polu '{0}' jest nieprawidłowa!} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="NoCompanyUnits" xml:space="preserve">
+    <value>The user is not assigned to any center.</value>
+    <comment>d={Użytkownik nie jest przypisany do żadnego centrum.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="CredentialsFormAppText" xml:space="preserve">
+    <value>Login Parameters</value>
+    <comment>d={Parametry logowania} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="CredentialsFormWindowText" xml:space="preserve">
+    <value>Configuration Database</value>
+    <comment>d={Baza konfiguracyjna} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="DemoInfoFormWindowText" xml:space="preserve">
+    <value>Notification about demo version</value>
+    <comment>d={Powiadomienie o wersji demonstracyjnej} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="LicenseServerFormWindowText" xml:space="preserve">
+    <value>Licensing</value>
+    <comment>d={Licencjonowanie} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="LicenseServerFromAppText" xml:space="preserve">
+    <value>License Server Selection</value>
+    <comment>d={Wybór serwera licencji} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="NoLoginUntilSynchronization" xml:space="preserve">
+    <value>To log in, it is necessary to carry out the synchronization process.</value>
+    <comment>d={Do zalogowania się wymagane jest przeprowadzenie synchronizacji} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="UserAlreadyLoggedIn" xml:space="preserve">
+    <value>The user is already logged in.</value>
+    <comment>d={Użytkownik jest już zalogowany.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="UserNotLoggedIn" xml:space="preserve">
+    <value>The user is not logged in.</value>
+    <comment>d={Użytkownik nie jest zalogowany.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+    <comment>d={Pytanie} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="UserGroupNotSetToCompanyUnit" xml:space="preserve">
+    <value>None default group is assigned to the center.</value>
+    <comment>d={Żadna grupa użytkownika nie jest przypisana do centrum} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="IfReindex" xml:space="preserve">
+    <value>Would you like to reindex the database after the conversion?</value>
+    <comment>d={Czy dokonać reindeksacji bazy danych po zakończeniu konwersji?} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="UpdateMutexAlreadyLocked" xml:space="preserve">
+    <value>Cannot run the system during update.</value>
+    <comment>d={Nie można uruchomić systemu w czasie trwania aktualizacji.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="InfoLoginToConfDatabaseFailed" xml:space="preserve">
+    <value>Failed to login to the configuration database. Please enter the user name and the password to log in.</value>
+    <comment>d={Logowanie do bazy konfiguracyjnej zakończyło się niepowodzeniem. Proszę podać nazwę użytkownka i hasło, by się zalogować.} a={Nina.Perek}</comment>
+  </data>
+  <data name="InfoLoginToConfDatabaseWithExplicitUser" xml:space="preserve">
+    <value>An error occurred while connecting to the selected configuration database. The configuration database is unavailable or incorrect login data have been given. Please specify the username and password and try again.</value>
+    <comment>d={Błąd połączenia z wybraną bazą konfiguracyjną. Baza konfiguracyjna jest niedostępna lub podano błędne dane do logowania. Proszę podać nazwę użytkownka oraz hasło i spróbować ponownie.} a={szymon.wnuk}</comment>
+  </data>
+  <data name="AddShortcutOnDesktop" xml:space="preserve">
+    <value>Add shortcut to system desktop</value>
+    <comment>d={Dodaj skrót na pulpicie {0}} a={Nina.Perek}</comment>
+  </data>
+  <data name="SessionNoLongerActive" xml:space="preserve">
+    <value>Program session was stopped. The program will be closed.</value>
+    <comment>d={Sesja programu została przerwana. Program zostanie zamknięty.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="ApplicationButtonText" xml:space="preserve">
+    <value>System</value>
+    <comment>d={System} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="ApplicationExits" xml:space="preserve">
+    <value>The application will close down.</value>
+    <comment>d={Aplikacja zakończy działanie.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="ExtensionFound" xml:space="preserve">
+    <value>The system has detected that you are using nonstandard system extensions.</value>
+    <comment>d={System wykrył, że wykorzystujesz niestandardowe rozszerzenia systemu.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="ExtensionLicenseNotFound" xml:space="preserve">
+    <value>Unfortunately, you do not have the system extension license.</value>
+    <comment>d={Niestety nie posiadasz licencji na rozszerzanie systemu.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="ConfigurationErrorsException" xml:space="preserve">
+    <value>Insufficient permissions to modify the file! Close the application and restart it with higher level permissions.</value>
+    <comment>d={Brak uprawnień do modyfikacji pliku! Zamknij aplikację i uruchom ponownie z podwyższonymi uprawnieniami.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="LicenseLost" xml:space="preserve">
+    <value>No user license found</value>
+    <comment>d={Brak licencji użytkownika} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="LicenseLostText" xml:space="preserve">
+    <value>Click OK to retry obtaining a license!</value>
+    <comment>d={Naciśnij OK aby ponowić próbę uzyskania licencji!} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="LogInAgainQuestion" xml:space="preserve">
+    <value>You are logged in at a different workstation. Would you like to keep the active sessions open?</value>
+    <comment>d={Jesteś zalogowany na innym stanowisku. Czy pozostawić aktywne sesje?} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="infoText" xml:space="preserve">
+    <value>Information</value>
+    <comment>d={Informacja} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="LastSessionWasTerminated" xml:space="preserve">
+    <value>The previous session of the operator {0} was terminated. Please contact the system administrator for details.</value>
+    <comment>d={Poprzednia sesja operatora {0} została przerwana. W celu uzyskania szczegółowych informacji skontaktuj się z administratorem systemu.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="UserHasOpenSessions" xml:space="preserve">
+    <value>Operator {0} has the following sessions open:</value>
+    <comment>d={Operator {0} ma otwarte sesje:} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="UserSession" xml:space="preserve">
+    <value>({0}) at the workstation {1}</value>
+    <comment>d={({0}) na stanowisku {1}} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="LicenseNotFound" xml:space="preserve">
+    <value>Licensing service parameters are incorrect or no valid license was found!</value>
+    <comment>d={Parametry usługi licencjonowania są nieprawidłowe lub nie znaleziono poprawnej licencji!} a={dominika.krochmal}</comment>
+  </data>
+  <data name="LicenseKeyError" xml:space="preserve">
+    <value>License key error!</value>
+    <comment>d={Błąd klucza licencyjnego!} a={dominika.krochmal}</comment>
+  </data>
+  <data name="OperationCanceled" xml:space="preserve">
+    <value>The operation canceled by the user.</value>
+    <comment>d={Operacja anulowana przez użytkownika.} a={Dominika.Krochmal}</comment>
+  </data>
+  <data name="NoActiveRetailCompanyUnits" xml:space="preserve">
+    <value>The subsidiary is inactive. Cannot login to Comarch Retail.</value>
+    <comment>d={Oddział jest nieaktywny. Nie można się zalogować do Comarch Retail.} a={Nina.Perek}</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+    <comment>d={Zamknij} a={Nina.Perek}</comment>
+  </data>
+  <data name="ReadOnly" xml:space="preserve">
+    <value>Do you want to continue in 'Read Only' mode?</value>
+    <comment>d={Czy chcesz kontynuować w trybie 'Tylko do odczytu'?} a={Nina.Perek}</comment>
+  </data>
+  <data name="NipCheckFailed" xml:space="preserve">
+    <value>Verification of TINs completed with exception!</value>
+    <comment>d={Weryfikacja NIPów zakończyła sie wyjątkiem!} a={Nina.Perek}</comment>
+  </data>
+  <data name="NipViolation" xml:space="preserve">
+    <value>TIN uniqueness violation occurs in the system!</value>
+    <comment>d={W systemie występuje naruszenie unikalności NIPów!} a={Nina.Perek}</comment>
+  </data>
+  <data name="UnauthorizedAccess" xml:space="preserve">
+    <value>Failed to save the configuration. Probably, you do not have permissions to save in the application directory.</value>
+    <comment>d={Zapis konfiguracji nie powiódł się! Prawdopodobnie nie posiadasz uprawnień do zapisu w katalogu aplikacji.} a={Nina.Perek}</comment>
+  </data>
+  <data name="LicenseServerFormContinueButton" xml:space="preserve">
+    <value>Continue</value>
+    <comment>d={Kontynuuj} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="UserInactive" xml:space="preserve">
+    <value>The operator account is inactive.</value>
+    <comment>d={Konto operatora jest nieaktywne.} a={Nina.Perek}</comment>
+  </data>
+  <data name="LoginCannotLogIn" xml:space="preserve">
+    <value>The entered user data is invalid. Try again or contact the system administrator.</value>
+    <comment>d={Wprowadzone dane Użytkownika są niepoprawne. Spróbuj ponownie lub skontaktuj się z administratorem systemu.} a={Nina.Perek}</comment>
+  </data>
+  <data name="LoginCannotChangePassword" xml:space="preserve">
+    <value>Cannot change the password because the operator has other program sessions open.</value>
+    <comment>d={Nie można zmienić hasła, ponieważ operator ma otwarte inne sesje.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="LoginPasswordExpired" xml:space="preserve">
+    <value>The password validity date has expired.</value>
+    <comment>d={Upłynął termin ważności hasła.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+  <data name="DigitalSignatureNotConfiguredErrorCaption" xml:space="preserve">
+    <value>Digital signature configuration error.</value>
+    <comment>d={Błąd konfiguracji podpisu cyfrowego.} a={Katarzyna.Dmitrzak}</comment>
+  </data>
+</root>

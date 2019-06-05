@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DemoVersion" xml:space="preserve">
+    <value>Aplicación en modo DEMO.</value>
+    <comment>d={Aplikacja w trybie Demo.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="BackToNormalVersion" xml:space="preserve">
+    <value>La llave Hasp ha sido detectada. La aplicación ha vuelto al modo completo.</value>
+    <comment>d={Klucz HASP wykryty. Aplikacja powróciła do trybu pełnego.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="NoHasp" xml:space="preserve">
+    <value>La llave HASP no ha sido detectada. La aplicación está en modo DEMO. ¿Volver a intentar conectar con la llave HASP?</value>
+    <comment>d={Nie wykryto klucza HASP. Aplikacja w trybie DEMO. Czy ponowic próbę połaczenia z kluczem HASP?} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LicenseKeyInfo" xml:space="preserve">
+    <value>Información de licencia</value>
+    <comment>d={Informacja o licencji} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LicenseKeyNoValidLicense" xml:space="preserve">
+    <value>No dispone de una licencia valida. ¿Desea iniciar el trabajo en la versión demo?</value>
+    <comment>d={Nie masz zainstalowanej poprawnej licencji. Czy chcesz rozpocząć pracę w trybie demo?} a={Agata.Pankow}</comment>
+  </data>
+  <data name="DaysLeftOfDemoVersionInfo" xml:space="preserve">
+    <value>Está trabajando en la versión demo. Puede emitir documentos durante los {0} días más.</value>
+    <comment>d={Pracujesz w trybie demo. Możesz wystawiać dokumenty jeszcze przez {0} dni.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="BuyAltumWarning" xml:space="preserve">
+    <value>Comprar la versión completa del sistema.</value>
+    <comment>d={Kup pełną wersję systemu.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Error</value>
+    <comment>d={Błąd} a={Agata.Pankow}</comment>
+  </data>
+  <data name="UserOffLine" xml:space="preserve">
+    <value>No se ha podido establecer conexción con la base de datos. Verifique el cable de red.</value>
+    <comment>d={Nie udało się nawiązać połączenia z bazą danych. Sprawdź kabel sieciowy.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LicenseManagerToolNotFound" xml:space="preserve">
+    <value>No se puede encontrar la herramienta de configuración del servicio de licencias.</value>
+    <comment>d={Nie znaleziono narzędzia konfiguracji serwisu licencyjnego.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="EmptyNameNotAllowed" xml:space="preserve">
+    <value>¡El nombre del servidor no puede estar vacío!</value>
+    <comment>d={Nazwa serwera nie moze być pusta!} a={Agata.Pankow}</comment>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Puerto</value>
+    <comment>d={Port} a={Agata.Pankow}</comment>
+  </data>
+  <data name="PortFieldReq" xml:space="preserve">
+    <value>El puerto del servicio de licencias no está indicado.</value>
+    <comment>d={Nie wskazano portu usługi licencyjnej.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="PortParseErr" xml:space="preserve">
+    <value>¡El valor en el campo '{0}' es incorrecto!</value>
+    <comment>d={Wartość w polu '{0}' jest nieprawidłowa!} a={Agata.Pankow}</comment>
+  </data>
+  <data name="NoCompanyUnits" xml:space="preserve">
+    <value>El usuario no está asignado a ningún centro.</value>
+    <comment>d={Użytkownik nie jest przypisany do żadnego centrum.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="CredentialsFormAppText" xml:space="preserve">
+    <value>Parámetros de inicio de sesión</value>
+    <comment>d={Parametry logowania} a={Agata.Pankow}</comment>
+  </data>
+  <data name="CredentialsFormWindowText" xml:space="preserve">
+    <value>Base de configuración</value>
+    <comment>d={Baza konfiguracyjna} a={Agata.Pankow}</comment>
+  </data>
+  <data name="DemoInfoFormWindowText" xml:space="preserve">
+    <value>Notificación sobre la versión demo</value>
+    <comment>d={Powiadomienie o wersji demonstracyjnej} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LicenseServerFormWindowText" xml:space="preserve">
+    <value>Concesión de licencias</value>
+    <comment>d={Licencjonowanie} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LicenseServerFromAppText" xml:space="preserve">
+    <value>Selección del servidor de licencia</value>
+    <comment>d={Wybór serwera licencji} a={Agata.Pankow}</comment>
+  </data>
+  <data name="NoLoginUntilSynchronization" xml:space="preserve">
+    <value>Para conectarse es necesario realizar una sincronización.</value>
+    <comment>d={Do zalogowania się wymagane jest przeprowadzenie synchronizacji} a={Agata.Pankow}</comment>
+  </data>
+  <data name="UserAlreadyLoggedIn" xml:space="preserve">
+    <value>El usuario ya está conectado.</value>
+    <comment>d={Użytkownik jest już zalogowany.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="UserNotLoggedIn" xml:space="preserve">
+    <value>El usuario no está conectado.</value>
+    <comment>d={Użytkownik nie jest zalogowany.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="IfReindex" xml:space="preserve">
+    <value>¿Reindexar la base de datos al terminar la conversión?</value>
+    <comment>d={Czy dokonać reindeksacji bazy danych po zakończeniu konwersji?} a={Agata.Pankow}</comment>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Pregunta</value>
+    <comment>d={Pytanie} a={Agata.Pankow}</comment>
+  </data>
+  <data name="UserGroupNotSetToCompanyUnit" xml:space="preserve">
+    <value>Ningún grupo del usuario está asignado al centro.</value>
+    <comment>d={Żadna grupa użytkownika nie jest przypisana do centrum} a={Agata.Pankow}</comment>
+  </data>
+  <data name="UpdateMutexAlreadyLocked" xml:space="preserve">
+    <value>No se puede iniciar sistema durante la actualización.</value>
+    <comment>d={Nie można uruchomić systemu w czasie trwania aktualizacji.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="InfoLoginToConfDatabaseFailed" xml:space="preserve">
+    <value>Error de inicio de sesión de la base de configuración. Por favor, escriba el nombre de usuario y contraseña para iniciar sesión.</value>
+    <comment>d={Logowanie do bazy konfiguracyjnej zakończyło się niepowodzeniem. Proszę podać nazwę użytkownka i hasło, by się zalogować.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="InfoLoginToConfDatabaseWithExplicitUser" xml:space="preserve">
+    <value>Error de conexión con la base de configuración seleccionada. La base de configuración no está disponible o se especificaron datos de inicio de sesión incorrectos. Por favor, escriba el nombre de usuario y contraseña y reintente.</value>
+    <comment>d={Błąd połączenia z wybraną bazą konfiguracyjną. Baza konfiguracyjna jest niedostępna lub podano błędne dane do logowania. Proszę podać nazwę użytkownka oraz hasło i spróbować ponownie.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="AddShortcutOnDesktop" xml:space="preserve">
+    <value>Crear un acceso directo en escritorio {0}</value>
+    <comment>d={Dodaj skrót na pulpicie {0}} a={Agata.Pankow}</comment>
+  </data>
+  <data name="SessionNoLongerActive" xml:space="preserve">
+    <value>La sesión del programa ha sido terminada. El programa va a cerrarse.</value>
+    <comment>d={Sesja programu została przerwana. Program zostanie zamknięty.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="ApplicationButtonText" xml:space="preserve">
+    <value>Sistema</value>
+    <comment>d={System} a={Agata.Pankow}</comment>
+  </data>
+  <data name="ApplicationExits" xml:space="preserve">
+    <value>La aplicación va a cerrarse.</value>
+    <comment>d={Aplikacja zakończy działanie.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="ConfigurationErrorsException" xml:space="preserve">
+    <value>¡No tiene permisos para modificar el archivo! Cierre la aplicación y reinicie con permisos elevados.</value>
+    <comment>d={Brak uprawnień do modyfikacji pliku! Zamknij aplikację i uruchom ponownie z podwyższonymi uprawnieniami.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LicenseLost" xml:space="preserve">
+    <value>No hay licencia de usuario</value>
+    <comment>d={Brak licencji użytkownika} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LicenseLostText" xml:space="preserve">
+    <value>¡Haga clic sobre OK para volver a intentar obtener la licencia!</value>
+    <comment>d={Naciśnij OK aby ponowić próbę uzyskania licencji!} a={Agata.Pankow}</comment>
+  </data>
+  <data name="infoText" xml:space="preserve">
+    <value>Información</value>
+    <comment>d={Informacja} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LastSessionWasTerminated" xml:space="preserve">
+    <value>La sesión anterior del operador {0} ha sido terminada. Para obtener más información póngase en contacto con el administrador del sistema.</value>
+    <comment>d={Poprzednia sesja operatora {0} została przerwana. W celu uzyskania szczegółowych informacji skontaktuj się z administratorem systemu.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="UserHasOpenSessions" xml:space="preserve">
+    <value>El operador {0} ha abierto las siguientes sesiones:</value>
+    <comment>d={Operator {0} ma otwarte sesje:} a={Agata.Pankow}</comment>
+  </data>
+  <data name="UserSession" xml:space="preserve">
+    <value>({0}) en el puesto {1}</value>
+    <comment>d={({0}) na stanowisku {1}} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LicenseKeyError" xml:space="preserve">
+    <value>¡Error de la clave de licencia!</value>
+    <comment>d={Błąd klucza licencyjnego!} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LicenseNotFound" xml:space="preserve">
+    <value>¡Los parámetros del servicio de licencias son incorrectos o no se puede encontrar una licencia adecuada!</value>
+    <comment>d={Parametry usługi licencjonowania są nieprawidłowe lub nie znaleziono poprawnej licencji!} a={Agata.Pankow}</comment>
+  </data>
+  <data name="OperationCanceled" xml:space="preserve">
+    <value>La operación ha sido anulada por el usuario.</value>
+    <comment>d={Operacja anulowana przez użytkownika.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="NoActiveRetailCompanyUnits" xml:space="preserve">
+    <value>La filial está inactiva. No puede iniciar sesión en Comarch Retail.</value>
+    <comment>d={Oddział jest nieaktywny. Nie można się zalogować do Comarch Retail.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Cerrar</value>
+    <comment>d={Zamknij} a={Agata.Pankow}</comment>
+  </data>
+  <data name="ReadOnly" xml:space="preserve">
+    <value>¿Desea continuar en el modo 'Solo lectura'?</value>
+    <comment>d={Czy chcesz kontynuować w trybie 'Tylko do odczytu'?} a={Agata.Pankow}</comment>
+  </data>
+  <data name="NipCheckFailed" xml:space="preserve">
+    <value>¡Se ha producido una excepción al verificar los números IVA intracomunitario!</value>
+    <comment>d={Weryfikacja NIPów zakończyła sie wyjątkiem!} a={Agata.Pankow}</comment>
+  </data>
+  <data name="UnauthorizedAccess" xml:space="preserve">
+    <value>¡Fallo al guardar la configuración! Probablemente no tiene permisos para introducir cambios en el catálogo de la aplicación.</value>
+    <comment>d={Zapis konfiguracji nie powiódł się! Prawdopodobnie nie posiadasz uprawnień do zapisu w katalogu aplikacji.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LicenseServerFormContinueButton" xml:space="preserve">
+    <value>Continuar</value>
+    <comment>d={Kontynuuj} a={Agata.Pankow}</comment>
+  </data>
+  <data name="UserInactive" xml:space="preserve">
+    <value>La cuenta del operador está inactiva.</value>
+    <comment>d={Konto operatora jest nieaktywne.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LoginNoContextForUser" xml:space="preserve">
+    <value>No es posible conectarse sin contexo.</value>
+    <comment>d={Nie można logować się bez kontekstu.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="ManyConnections" xml:space="preserve">
+    <value>Hay otros usuarios conectados a la base {0}. ¿Terminar la conexión y empezar la conversión?</value>
+    <comment>d={Do bazy {0} są podłączone inne osoby. Czy przerwać połączenia i rozpocząć konwersję?} a={Agata.Pankow}</comment>
+  </data>
+  <data name="NoUserAcountInfo" xml:space="preserve">
+    <value>No se puede conectar a {0}.</value>
+    <comment>d={Nie można zalogować się do {0}.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="BaseNewer" xml:space="preserve">
+    <value>La versión de la aplicación es más antigua que la versión de la base seleccionada. Elija otra base o inicie la versión {0} de la aplicación.</value>
+    <comment>d={Wersja aplikacji jest starsza niż wersja wybranej bazy. Wybierz inną bazę lub uruchom aplikację w wersji {0}.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LoginEmptyConfigDatabase" xml:space="preserve">
+    <value>No hay bases de datos. Añada una base en el administrador de bases de datos.</value>
+    <comment>d={Brak baz danych. Dodaj bazę w menedżerze.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="ConfBaseNewer" xml:space="preserve">
+    <value>La versión de la aplicación es más antigua que la versión de la base de configuración. Inicie el administrador de bases para cambiar la base de configuración.</value>
+    <comment>d={Wersja aplikacji jest starsza niż wersja bazy konfiguracyjnej. Uruchom menadżera baz aby zmienić bazę konfiguracyjną.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LoginConfigDatabaseConnectionError" xml:space="preserve">
+    <value>Error de conexión con la base de configuración.</value>
+    <comment>d={Błąd połączenia z bazą konfiguracyjną.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="IfBackup" xml:space="preserve">
+    <value>¿Desea hacer una copia de seguridad de la base antes de la conversión?</value>
+    <comment>d={Czy chcesz zrobić kopię zapasową bazy przed konwersją?} a={Agata.Pankow}</comment>
+  </data>
+  <data name="ErrorGettingVersion" xml:space="preserve">
+    <value>Error de la descarga de la versión de la base {0}. Es posible que no haya base de configuración. Inicie el administrador de bases.</value>
+    <comment>d={Błąd przy pobieraniu wersji bazy {0}. Możliwy brak bazy konfiguracyjnej. Uruchom menadżera baz.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="NoAccess" xml:space="preserve">
+    <value>No tiene permisos para convertir la base {0}</value>
+    <comment>d={Brak odpowiednich uprawnień do konwersji bazy {0}} a={Agata.Pankow}</comment>
+  </data>
+  <data name="ErrorGettingVersionOld" xml:space="preserve">
+    <value>Error de la descarga de la versión de la base {0}.</value>
+    <comment>d={Błąd przy pobieraniu wersji bazy {0}.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="ConversionSuccess" xml:space="preserve">
+    <value>La conversión de la base {0} ha sido realizada con éxito</value>
+    <comment>d={Konwersja bazy {0} zakończona sukcesem} a={Agata.Pankow}</comment>
+  </data>
+  <data name="NoUserAcountErrot" xml:space="preserve">
+    <value>El usuario no tiene cuenta en la base seleccionada.</value>
+    <comment>d={Użytkownik nie posiada konta na wybranej bazie.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LoginBadPassword" xml:space="preserve">
+    <value>Los datos del usuario introducidos son incorrectos. Reintente o póngase en contacto con el administrador del sistema.</value>
+    <comment>d={Wprowadzone dane Użytkownika są niepoprawne. Spróbuj ponownie lub skontaktuj się z administratorem systemu.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LoginDatabaseConnectionError" xml:space="preserve">
+    <value>Error de conexión con la base de datos.</value>
+    <comment>d={Błąd połączenia z wybraną bazą danych.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LoginApplicationText" xml:space="preserve">
+    <value>versión</value>
+    <comment>d={wersja} a={Agata.Pankow}</comment>
+  </data>
+  <data name="DatabaseVersion" xml:space="preserve">
+    <value>Versión de la base</value>
+    <comment>d={Wersja bazy} a={Agata.Pankow}</comment>
+  </data>
+  <data name="InternalSystemError" xml:space="preserve">
+    <value>Se ha producido un error inesperado.</value>
+    <comment>d={Wystąpił nieoczekiwany błąd systemu.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="NotCompleteConversion" xml:space="preserve">
+    <value>No se ha podido realizar la conversión completa de la base {0}. Versión actual de la base: {1}</value>
+    <comment>d={Nie udało się dokonać pełnej konwersji bazy {0}. Obecna wersja bazy: {1}} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LogInAgainQuestion" xml:space="preserve">
+    <value>Está conectado en otro puesto. ¿Desea dejar las sesiones activas?</value>
+    <comment>d={Jesteś zalogowany na innym stanowisku. Czy pozostawić aktywne sesje?} a={Agata.Pankow}</comment>
+  </data>
+  <data name="DatabaseNotActual" xml:space="preserve">
+    <value>La versión de la base {0} no es actual. ¿Empezar la conversión de la base a la versión actual?</value>
+    <comment>d={Wersja bazy {0} nie jest aktualna. Czy rozpocząć konwersję bazy do aktualnej wersji?} a={Agata.Pankow}</comment>
+  </data>
+  <data name="ExtensionFound" xml:space="preserve">
+    <value>El sistema ha detectado que está utilizando extensiones del sistema no estándar.</value>
+    <comment>d={System wykrył, że wykorzystujesz niestandardowe rozszerzenia systemu.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="ExtensionLicenseNotFound" xml:space="preserve">
+    <value>No dispone de una licencia de extensión del sistema.</value>
+    <comment>d={Niestety nie posiadasz licencji na rozszerzanie systemu.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="NipViolation" xml:space="preserve">
+    <value>¡En el sistema aparecen dos números IVA intracomunitario iguales!</value>
+    <comment>d={W systemie występuje naruszenie unikalności NIPów!} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LoginCannotLogIn" xml:space="preserve">
+    <value>Los datos del usuario introducidos son incorrectos. Reintente o póngase en contacto con el administrador del sistema.</value>
+    <comment>d={Wprowadzone dane Użytkownika są niepoprawne. Spróbuj ponownie lub skontaktuj się z administratorem systemu.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LoginPasswordExpired" xml:space="preserve">
+    <value>El plazo de validez de la contraseña ha expirado.</value>
+    <comment>d={Upłynął termin ważności hasła.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="LoginCannotChangePassword" xml:space="preserve">
+    <value>No se puede cambiar la contraseña porque el operador tiene abiertas otras sesiones.</value>
+    <comment>d={Nie można zmienić hasła, ponieważ operator ma otwarte inne sesje.} a={Agata.Pankow}</comment>
+  </data>
+  <data name="DigitalSignatureNotConfiguredErrorCaption" xml:space="preserve">
+    <value>Error de configuración de firma digital.</value>
+    <comment>d={Błąd konfiguracji podpisu cyfrowego.} a={Agata.Pankow}</comment>
+  </data>
+</root>

@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LoginApplicationText" xml:space="preserve">
+    <value>Comarch ALTUM version 3.1</value>
+    <comment>ALTUM wersja 3.1</comment>
+  </data>
+  <data name="LoginBadPassword" xml:space="preserve">
+    <value>Wrong password.</value>
+    <comment>Złe hasło.</comment>
+  </data>
+  <data name="LoginEmptyConfigDatabase" xml:space="preserve">
+    <value>No databases. Add database in database manager.</value>
+    <comment>Brak baz danych. Dodaj bazę w managerze.</comment>
+  </data>
+  <data name="LoginNoContextForUser" xml:space="preserve">
+    <value>You cannot log in without context.</value>
+    <comment>Nie można logować się bez kontekstu.</comment>
+  </data>
+  <data name="NoUserAcountErrot" xml:space="preserve">
+    <value>The user does not have an account on selected database.</value>
+    <comment>Użytkownik nie posiada konta na wybranej bazie.</comment>
+  </data>
+  <data name="NoUserAcountInfo" xml:space="preserve">
+    <value>Cannot log in to Comarch ALTUM.</value>
+    <comment>Nie można zalogować do Comarch ALTUM.</comment>
+  </data>
+  <data name="HASP_A_parameter_is_invalid" xml:space="preserve">
+    <value>Invalid parameter.</value>
+    <comment>Niewłaściwy parametr</comment>
+  </data>
+  <data name="HASP_A_required_API_dynamic_library_was_not_found" xml:space="preserve">
+    <value>A required API dynamic library was not found.</value>
+    <comment>Wymagana dynamiczna biblioteka API nie została odnaleziona</comment>
+  </data>
+  <data name="HASP_Already_logged_in" xml:space="preserve">
+    <value>Already logged in.</value>
+    <comment>Już zalogowany</comment>
+  </data>
+  <data name="HASP_Already_logged_out" xml:space="preserve">
+    <value>Already logged out.</value>
+    <comment>Już wylogowany</comment>
+  </data>
+  <data name="HASP_Another_update_must_be_installed_first" xml:space="preserve">
+    <value>Another update must be installed first. </value>
+    <comment>Inne uaktualnienie musi zostać zainstalowane wcześniej</comment>
+  </data>
+  <data name="HASP_Capability_is_not_available" xml:space="preserve">
+    <value>Capability is not available.</value>
+    <comment>Funkcjonalność niedostępna</comment>
+  </data>
+  <data name="HASP_Clock_out_of_power" xml:space="preserve">
+    <value>Clock out of power.</value>
+    <comment>Wyczerpana bateria zegara</comment>
+  </data>
+  <data name="HASP_Communication_error_between_application_and_local_LM" xml:space="preserve">
+    <value>Communication error between application and local LM.</value>
+    <comment>Bład komunikacji pomiędzy aplikacją i lokalnym serwisem licencji</comment>
+  </data>
+  <data name="HASP_Communication_error_between_local_and_remote_LM" xml:space="preserve">
+    <value>Communication error between local and remote LM.</value>
+    <comment>Błąd komunikacji pomiędzy lokalnym a zdalnym serwisem licencji</comment>
+  </data>
+  <data name="HASP_Feature_access_denied" xml:space="preserve">
+    <value>Feature access denied.</value>
+    <comment>Zabroniony dostęp do cechy</comment>
+  </data>
+  <data name="HASP_Feature_not_found" xml:space="preserve">
+    <value>Feature not found.</value>
+    <comment>Nie odnaleziono podanej cechy</comment>
+  </data>
+  <data name="HASP_Hardware_key_driver_not_found" xml:space="preserve">
+    <value>Hardware key driver not found.</value>
+    <comment>Sprzętowy klucz nie został odnaleziony</comment>
+  </data>
+  <data name="HASP_Incompatible_feature" xml:space="preserve">
+    <value>Incompatible feature.</value>
+    <comment>Niekompatybilna cecha</comment>
+  </data>
+  <data name="HASP_Internal_API_error" xml:space="preserve">
+    <value>Internal API error.</value>
+    <comment>Wewnętrzny błąd API</comment>
+  </data>
+  <data name="HASP_Invalid_date__time" xml:space="preserve">
+    <value>Invalid date / time.</value>
+    <comment>Niewłaściwa data lub czas</comment>
+  </data>
+  <data name="HASP_Invalid_port" xml:space="preserve">
+    <value>Invalid port.</value>
+    <comment>Niewłaściwy port</comment>
+  </data>
+  <data name="HASP_Requested_encryption_algorithm_not_supported" xml:space="preserve">
+    <value>Requested encryption algorithm not supported.</value>
+    <comment>Żądany algorytm kodowanie nie jest wspierany</comment>
+  </data>
+  <data name="HASP_System_time_has_been_tampered" xml:space="preserve">
+    <value>System time has been tampered.</value>
+    <comment>Czas systemowy został zmanipulowany.</comment>
+  </data>
+  <data name="HASP_The_feature_is_expired" xml:space="preserve">
+    <value>The feature is expired.</value>
+    <comment>Cecha wygasła</comment>
+  </data>
+  <data name="HASP_Too_many_open_features" xml:space="preserve">
+    <value>Too many open features.</value>
+    <comment>Zbyt wiele otwartych cech</comment>
+  </data>
+  <data name="HASP_Too_many_users" xml:space="preserve">
+    <value>Too many users.</value>
+    <comment>Zbyt wielu użytkowników</comment>
+  </data>
+  <data name="HASP_Unable_to_excecute_complete_the_operation" xml:space="preserve">
+    <value>Unable to execute/complete the operation.</value>
+    <comment>Nie można wykonać/dokończyć operacji</comment>
+  </data>
+  <data name="HASP_Unknown_algorithm" xml:space="preserve">
+    <value>Unknown algorithm.</value>
+    <comment>Nieznany algorytm</comment>
+  </data>
+  <data name="HASP_Unknown_invalid_feature_id_option" xml:space="preserve">
+    <value>Unknown/invalid feature id option.</value>
+    <comment>Nieznane/błędne id cechy</comment>
+  </data>
+  <data name="HASP_Unrecognized_info_format" xml:space="preserve">
+    <value>Unrecognised info format.</value>
+    <comment>Nierozpoznany format informacji</comment>
+  </data>
+  <data name="HASP_Update_installation_not_allowed" xml:space="preserve">
+    <value>Update installation not allowed.</value>
+    <comment>Uaktualnienie instalacji jest niedozwolone</comment>
+  </data>
+  <data name="HASP_Update_was_already_installed" xml:space="preserve">
+    <value>Update was already installed.</value>
+    <comment>Uaktualnienie już zostało zainstalowane</comment>
+  </data>
+  <data name="HASP_Vendor_code_unknown_to_API_library_run_apigento_make_it_known" xml:space="preserve">
+    <value>Supplier code unknown to API library</value>
+    <comment>Nieznany kod sprzedawcy dla biblioteki API</comment>
+  </data>
+  <data name="HASP_Vendor_lib_cannot_be_found" xml:space="preserve">
+    <value>Supplier lib cannot be found.</value>
+    <comment>Nie można odnaleźć biblioteki sprzedawcy</comment>
+  </data>
+  <data name="HASP_Vendor_lib_cannot_be_loaded" xml:space="preserve">
+    <value>Supplier lib cannot be loaded.</value>
+    <comment>Biblioteka sprzedawcy nie może zostać załadowana</comment>
+  </data>
+  <data name="HASP_Calling_invalid_object" xml:space="preserve">
+    <value>Calling invalid object.</value>
+    <comment>Wywoływanie niewłaściwego obiektu</comment>
+  </data>
+  <data name="HASP_Feature_type_not_implemented" xml:space="preserve">
+    <value>Feature type not implemented.</value>
+    <comment>Niezaimplementowany typ cechy</comment>
+  </data>
+  <data name="HASP_Invalid_file_id_memory_descriptor" xml:space="preserve">
+    <value>Inappropriate file id / memory descriptor.</value>
+    <comment>Niewłaściwy identyfikator pliku / bloku pamięci</comment>
+  </data>
+  <data name="HASP_Invalid_memory_address" xml:space="preserve">
+    <value>Invalid memory address.</value>
+    <comment>Niewłaściwy adres w pamięci</comment>
+  </data>
+  <data name="HASP_Invalid_port_type" xml:space="preserve">
+    <value>Invalid port type.</value>
+    <comment>Niewłaściwy typ portu</comment>
+  </data>
+  <data name="HASP_Invalid_update_object" xml:space="preserve">
+    <value>Invalid update object.</value>
+    <comment>Niewłaściwy uaktualniany obiekt</comment>
+  </data>
+  <data name="HASP_Invalid_vendor_code" xml:space="preserve">
+    <value>Invalid supplier code.</value>
+    <comment>Niewłaściwy kod sprzedawcy</comment>
+  </data>
+  <data name="HASP_Invalid_XML_scope" xml:space="preserve">
+    <value>Invalid XML scope.</value>
+    <comment>Niewłaściwy zakres w XML</comment>
+  </data>
+  <data name="HASP_Key_with_requested_id_was_not_found" xml:space="preserve">
+    <value>Key with requested id was not found.</value>
+    <comment>Klucz z żądanym id nie został odnaleziony</comment>
+  </data>
+  <data name="HASP_Broken_session" xml:space="preserve">
+    <value>Broken session.</value>
+    <comment>Zerwana sesja</comment>
+  </data>
+  <data name="HASP_En_decryption_length_too_short" xml:space="preserve">
+    <value>En-/decryption length too short.</value>
+    <comment>Kodowane/Dekodowane dane są zbyt krótkie</comment>
+  </data>
+  <data name="HASP_HASP_SL_secure_storage_I_O_error_or_USB_request_error" xml:space="preserve">
+    <value>HASP SL secure storage I/O error or USB request error.</value>
+    <comment>Błąd I/O bezpiecznego magazynu HASP SL lub błąd żadania USB</comment>
+  </data>
+  <data name="HASP_Invalid_handle" xml:space="preserve">
+    <value>Invalid handle.</value>
+    <comment>Błędny uchwyt</comment>
+  </data>
+  <data name="HASP_Login_denied_because_of_user_restrictions" xml:space="preserve">
+    <value>Login denied because of user restrictions.</value>
+    <comment>Logowanie zabronione z powodu ograniczeń nałożonych na użytkownika</comment>
+  </data>
+  <data name="HASP_Memory_allocation_failed" xml:space="preserve">
+    <value>Memory allocation failed.</value>
+    <comment>Błąd alokacji pamięci</comment>
+  </data>
+  <data name="HASP_No_classic_memory_extension_block_available" xml:space="preserve">
+    <value>No classic memory extension block available.</value>
+    <comment>Niewystarczająca ilość pamięci podstawowej</comment>
+  </data>
+  <data name="HASP_No_feature_matching_scope_found" xml:space="preserve">
+    <value>No feature matching scope found.</value>
+    <comment>Nie znaleziono cech pasującej do zakresu</comment>
+  </data>
+  <data name="HASP_Terminal_services_remote_terminal_detected" xml:space="preserve">
+    <value>Terminal services (remote terminal) detected.</value>
+    <comment>Wykryto usługi terminalowe (zdalny dostęp)</comment>
+  </data>
+  <data name="HASP_Too_many_keys_connected" xml:space="preserve">
+    <value>Too many keys connected.</value>
+    <comment>Podłączono zbyt wiele kluczy</comment>
+  </data>
+  <data name="HASP_Trace_log_not_enabled" xml:space="preserve">
+    <value>Trace log not enabled.</value>
+    <comment>Śledzenie logów nie jest możliwe</comment>
+  </data>
+  <data name="HASP_Update_not_supported_by_this_key" xml:space="preserve">
+    <value>Update not supported by this key.</value>
+    <comment>Uaktualnienie nie jest wspierane przez ten klucz</comment>
+  </data>
+  <data name="HASP_Virtual_machine_detected" xml:space="preserve">
+    <value>Virtual machine detected.</value>
+    <comment>Wykryto wirtualną maszynę</comment>
+  </data>
+  <data name="HASP_Driver_or_support_daemon_version_too_old" xml:space="preserve">
+    <value>Driver or support deamon version too old.</value>
+    <comment>Driver or support daemon version too old.</comment>
+  </data>
+  <data name="HASP_Generic_error_from_host_system_call" xml:space="preserve">
+    <value>Generic error from host system call.</value>
+    <comment>Wewnętrzny błąd systemu operacyjnego</comment>
+  </data>
+  <data name="HASP_HASP_LM_version_too_old" xml:space="preserve">
+    <value>HASP LM version too old.</value>
+    <comment>Za stara wersja serwisu licencji</comment>
+  </data>
+  <data name="HASP_HASP_not_found" xml:space="preserve">
+    <value>HASP not found.</value>
+    <comment>Nie wykryto klucza HASP</comment>
+  </data>
+  <data name="HASP_HASP_update_incompatible_with_this_hardware" xml:space="preserve">
+    <value>HASP update incompatible with this hardware; HASP key is locked to another hardware.</value>
+    <comment>Uaktualnienie HASP nie jest kompatybilne z tym sprzętem; Klucz HASP jest zablokowany dla innego sprzętu</comment>
+  </data>
+  <data name="HASP_Invalid_XML_spec" xml:space="preserve">
+    <value>Invalid XML specification.</value>
+    <comment>Błędny format w XML</comment>
+  </data>
+  <data name="HASP_Real_time_support_not_available" xml:space="preserve">
+    <value>Real time support not available.</value>
+    <comment>Zegar czasu rzeczywistego nie jest wspierany</comment>
+  </data>
+  <data name="HASP_Request_not_supported" xml:space="preserve">
+    <value>Request not supported.</value>
+    <comment>Żadanie nie jest wspierane</comment>
+  </data>
+  <data name="HASP_Secure_channel_communication_error" xml:space="preserve">
+    <value>Secure channel communication error.</value>
+    <comment>Błąd komunikacji na bezpiecznym kanale</comment>
+  </data>
+  <data name="HASP_Secure_storage_contains_garbage" xml:space="preserve">
+    <value>Secure storage contains rubbish.</value>
+    <comment>Nieprawidłowe elementy w przestrzeni bezpieczeństwa.</comment>
+  </data>
+  <data name="HASP_Signature_check_failed" xml:space="preserve">
+    <value>Signature check failed.</value>
+    <comment>Błąd sprawdzania sygnatury</comment>
+  </data>
+  <data name="HASP_Success" xml:space="preserve">
+    <value>Success.</value>
+    <comment>Zakończono powodzeniem</comment>
+  </data>
+  <data name="HASP_The_found_and_assigned_API_dynamic_library_could_not_be_verified" xml:space="preserve">
+    <value>The found and assigned API dynamic library could not be verified.</value>
+    <comment>Znaleziona i podpisana biblioteka API nie może zostać zweryfikowa</comment>
+  </data>
+  <data name="HASP_Update_counter_mismatch" xml:space="preserve">
+    <value>Update counter mismatch.</value>
+    <comment>Błąd uaktualnienia licznika</comment>
+  </data>
+  <data name="HASP_Update_data_consistency_check_failed" xml:space="preserve">
+    <value>Update data consistency check failed.</value>
+    <comment>Błąd sprawdzania spójności uaktualnianych danych</comment>
+  </data>
+  <data name="HASP_Update_requested_ack_but_no_area_to_return_it" xml:space="preserve">
+    <value>Update requested acknowledgement, but no area to return it.</value>
+    <comment>Uaktualnienie wymaga odpowiedzi, ale nie znaleziono punktu docelowego</comment>
+  </data>
+  <data name="LoginConfigDatabaseConnectionError" xml:space="preserve">
+    <value>Error connecting with the configuration database.</value>
+    <comment>Błąd połączenia z bazą konfiguracyjną.</comment>
+  </data>
+  <data name="LoginDatabaseConnectionError" xml:space="preserve">
+    <value>Error connecting with selected database.</value>
+    <comment>Błąd połączenia z wybraną bazą danych.</comment>
+  </data>
+  <data name="ConversionSuccess" xml:space="preserve">
+    <value>Conversion of database {0} completed successfully.</value>
+    <comment>Konwersja bazy {0} zakończona sukcesem</comment>
+  </data>
+  <data name="DatabaseVersion" xml:space="preserve">
+    <value>Database version</value>
+    <comment>Wersja bazy</comment>
+  </data>
+  <data name="NotCompleteConversion" xml:space="preserve">
+    <value>Failed to perform full conversion of database {0}. Current database version: {1}.</value>
+    <comment>Nie udało się dokonać pełnej konwersji bazy {0}. Obecna wersja bazy: {1}</comment>
+  </data>
+  <data name="DatabaseNotActual" xml:space="preserve">
+    <value>Database version {0} is not up-to-date. Do you want to start converting the database to the current version?</value>
+    <comment>Wersja bazy {0} nie jest aktualna. Czy rozpocząć konwersję bazy do aktualnej wersji?</comment>
+  </data>
+  <data name="ErrorGettingVersion" xml:space="preserve">
+    <value>Error while downloading database version {0}. Possibly, there is no configuration database. Run database manager.</value>
+    <comment>Błąd przy pobieraniu wersji bazy {0}. Możliwy brak bazy konfiguracyjnej. Uruchom menadżera baz.</comment>
+  </data>
+  <data name="IfBackup" xml:space="preserve">
+    <value>Do you want to make a backup copy of the database before conversion?</value>
+    <comment>Czy chcesz zrobić kopię zapasową bazy przed konwersją?</comment>
+  </data>
+  <data name="ManyConnections" xml:space="preserve">
+    <value>Other persons are connected to the database {0}. Do you want to disconnect and start conversion?</value>
+    <comment>Do bazy {0} są podłączone inne osoby. Czy przerwać połączenia i rozpocząć konwersję?</comment>
+  </data>
+  <data name="NoAccess" xml:space="preserve">
+    <value>No appropriate permissions to convert database {0}.</value>
+    <comment>Brak odpowiednich uprawnień do konwersji bazy {0}</comment>
+  </data>
+  <data name="ErrorGettingVersionOld" xml:space="preserve">
+    <value>Error while downloading database version {0}.</value>
+    <comment>Błąd przy pobieraniu wersji bazy {0}.</comment>
+  </data>
+  <data name="BaseNewer" xml:space="preserve">
+    <value>The application version is older than the version of selected database. Select another database or run the application in version {0}.</value>
+    <comment>Wersja aplikacji jest starsza niż wersja wybranej bazy. Wybierz inną bazę lub uruchom aplikację w wersji {0}.</comment>
+  </data>
+  <data name="ConfBaseNewer" xml:space="preserve">
+    <value>The application version is older than the configuration database version. Run database manager to change the configuration database.</value>
+    <comment>Wersja aplikacji jest starsza niż wersja bazy konfiguracyjnej. Uruchom menadżera baz aby zmienić bazę konfiguracyjną.</comment>
+  </data>
+  <data name="InternalSystemError" xml:space="preserve">
+    <value>Unexpected system error occurred.</value>
+    <comment>Wystąpił nieoczekiwany błąd systemu.</comment>
+  </data>
+  <data name="DemoVersion" xml:space="preserve">
+    <value>Application in Demo mode.</value>
+    <comment>Aplikacja w trybie Demo.</comment>
+  </data>
+  <data name="BackToNormalVersion" xml:space="preserve">
+    <value>HASP key detected. The application is back to full mode.</value>
+    <comment>Klucz HASP wykryty. Aplikacja powróciła do trybu pełnego.</comment>
+  </data>
+  <data name="NoHasp" xml:space="preserve">
+    <value>HASP key not detected. The application is in DEMO mode. Do you want to retry to connect with HASP key?</value>
+    <comment>Nie wykryto klucza HASP. Aplikacja w trybie DEMO. Czy ponowic próbę połaczenia z kluczem HASP?</comment>
+  </data>
+</root>

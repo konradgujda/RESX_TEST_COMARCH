@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LoginNoContextForUser" xml:space="preserve">
+    <value>Nie można logować się bez kontekstu.</value>
+  </data>
+  <data name="ManyConnections" xml:space="preserve">
+    <value>Do bazy {0} są podłączone inne osoby. Czy przerwać połączenia i rozpocząć konwersję?</value>
+  </data>
+  <data name="NoUserAcountInfo" xml:space="preserve">
+    <value>Nie można zalogować się do {0}.</value>
+  </data>
+  <data name="BaseNewer" xml:space="preserve">
+    <value>Wersja aplikacji jest starsza niż wersja wybranej bazy. Wybierz inną bazę lub uruchom aplikację w wersji {0}.</value>
+  </data>
+  <data name="LoginEmptyConfigDatabase" xml:space="preserve">
+    <value>Brak baz danych. Dodaj bazę w menedżerze.</value>
+  </data>
+  <data name="ConfBaseNewer" xml:space="preserve">
+    <value>Wersja aplikacji jest starsza niż wersja bazy konfiguracyjnej. Uruchom menadżera baz aby zmienić bazę konfiguracyjną.</value>
+  </data>
+  <data name="LoginConfigDatabaseConnectionError" xml:space="preserve">
+    <value>Błąd połączenia z bazą konfiguracyjną.</value>
+  </data>
+  <data name="IfBackup" xml:space="preserve">
+    <value>Czy chcesz zrobić kopię zapasową bazy przed konwersją?</value>
+  </data>
+  <data name="ErrorGettingVersion" xml:space="preserve">
+    <value>Błąd przy pobieraniu wersji bazy {0}. Możliwy brak bazy konfiguracyjnej. Uruchom menadżera baz.</value>
+  </data>
+  <data name="NoAccess" xml:space="preserve">
+    <value>Brak odpowiednich uprawnień do konwersji bazy {0}</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ErrorGettingVersionOld" xml:space="preserve">
+    <value>Błąd przy pobieraniu wersji bazy {0}.</value>
+  </data>
+  <data name="ConversionSuccess" xml:space="preserve">
+    <value>Konwersja bazy {0} zakończona sukcesem</value>
+  </data>
+  <data name="DatabaseNotActual" xml:space="preserve">
+    <value>Wersja bazy {0} nie jest aktualna. Czy rozpocząć konwersję bazy do aktualnej wersji?</value>
+  </data>
+  <data name="NoUserAcountErrot" xml:space="preserve">
+    <value>Użytkownik nie posiada konta na wybranej bazie.</value>
+  </data>
+  <data name="NotCompleteConversion" xml:space="preserve">
+    <value>Nie udało się dokonać pełnej konwersji bazy {0}. Obecna wersja bazy: {1}</value>
+  </data>
+  <data name="LoginDatabaseConnectionError" xml:space="preserve">
+    <value>Błąd połączenia z wybraną bazą danych.</value>
+  </data>
+  <data name="LoginApplicationText" xml:space="preserve">
+    <value>wersja</value>
+  </data>
+  <data name="DatabaseVersion" xml:space="preserve">
+    <value>Wersja bazy</value>
+  </data>
+  <data name="_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\17.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InternalSystemError" xml:space="preserve">
+    <value>Wystąpił nieoczekiwany błąd systemu.</value>
+  </data>
+  <data name="DemoVersion" xml:space="preserve">
+    <value>Aplikacja w trybie Demo.</value>
+  </data>
+  <data name="BackToNormalVersion" xml:space="preserve">
+    <value>Klucz HASP wykryty. Aplikacja powróciła do trybu pełnego.</value>
+  </data>
+  <data name="NoHasp" xml:space="preserve">
+    <value>Nie wykryto klucza HASP. Aplikacja w trybie DEMO. Czy ponowic próbę połaczenia z kluczem HASP?</value>
+  </data>
+  <data name="LicenseKeyInfo" xml:space="preserve">
+    <value>Informacja o licencji</value>
+    <comment>License Information</comment>
+  </data>
+  <data name="LicenseKeyNoValidLicense" xml:space="preserve">
+    <value>Nie masz zainstalowanej poprawnej licencji. Czy chcesz rozpocząć pracę w trybie demo?</value>
+    <comment>You have no valid license installed!
+Do you want to start in demo mode?</comment>
+  </data>
+  <data name="DaysLeftOfDemoVersionInfo" xml:space="preserve">
+    <value>Pracujesz w trybie demo. Możesz wystawiać dokumenty jeszcze przez {0} dni.</value>
+  </data>
+  <data name="BuyAltumWarning" xml:space="preserve">
+    <value>Kup pełną wersję systemu.</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Błąd</value>
+  </data>
+  <data name="UserOffLine" xml:space="preserve">
+    <value>Nie udało się nawiązać połączenia z bazą danych. Sprawdź kabel sieciowy.</value>
+  </data>
+  <data name="LicenseManagerToolNotFound" xml:space="preserve">
+    <value>Nie znaleziono narzędzia konfiguracji serwisu licencyjnego.</value>
+  </data>
+  <data name="EmptyNameNotAllowed" xml:space="preserve">
+    <value>Nazwa serwera nie moze być pusta!</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="PortFieldReq" xml:space="preserve">
+    <value>Nie wskazano portu usługi licencyjnej.</value>
+  </data>
+  <data name="PortParseErr" xml:space="preserve">
+    <value>Wartość w polu '{0}' jest nieprawidłowa! </value>
+  </data>
+  <data name="NoCompanyUnits" xml:space="preserve">
+    <value>Użytkownik nie jest przypisany do żadnego centrum.</value>
+  </data>
+  <data name="CredentialsFormAppText" xml:space="preserve">
+    <value>Parametry logowania</value>
+  </data>
+  <data name="CredentialsFormWindowText" xml:space="preserve">
+    <value>Baza konfiguracyjna</value>
+  </data>
+  <data name="DemoInfoFormWindowText" xml:space="preserve">
+    <value>Powiadomienie o wersji demonstracyjnej</value>
+  </data>
+  <data name="LicenseServerFormWindowText" xml:space="preserve">
+    <value>Licencjonowanie</value>
+  </data>
+  <data name="LicenseServerFromAppText" xml:space="preserve">
+    <value>Wybór serwera licencji</value>
+  </data>
+  <data name="altum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\altum.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="retail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\retail.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NoLoginUntilSynchronization" xml:space="preserve">
+    <value>Do zalogowania się wymagane jest przeprowadzenie synchronizacji</value>
+  </data>
+  <data name="UserAlreadyLoggedIn" xml:space="preserve">
+    <value>Użytkownik jest już zalogowany.</value>
+  </data>
+  <data name="UserNotLoggedIn" xml:space="preserve">
+    <value>Użytkownik nie jest zalogowany.</value>
+  </data>
+  <data name="IfReindex" xml:space="preserve">
+    <value>Czy dokonać reindeksacji bazy danych po zakończeniu konwersji?</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Pytanie</value>
+  </data>
+  <data name="UserGroupNotSetToCompanyUnit" xml:space="preserve">
+    <value>Żadna grupa użytkownika nie jest przypisana do centrum</value>
+  </data>
+  <data name="DatabaseManagerIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DatabaseManagerIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateMutexAlreadyLocked" xml:space="preserve">
+    <value>Nie można uruchomić systemu w czasie trwania aktualizacji.</value>
+  </data>
+  <data name="InfoLoginToConfDatabaseFailed" xml:space="preserve">
+    <value>Logowanie do bazy konfiguracyjnej zakończyło się niepowodzeniem. Proszę podać nazwę użytkownka i hasło, by się zalogować.</value>
+  </data>
+  <data name="InfoLoginToConfDatabaseWithExplicitUser" xml:space="preserve">
+    <value>Błąd połączenia z wybraną bazą konfiguracyjną. Baza konfiguracyjna jest niedostępna lub podano błędne dane do logowania. Proszę podać nazwę użytkownka oraz hasło i spróbować ponownie.</value>
+  </data>
+  <data name="AddShortcutOnDesktop" xml:space="preserve">
+    <value>Dodaj skrót na pulpicie {0}</value>
+  </data>
+  <data name="ComarchERPWallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ComarchERPWallpaper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SessionNoLongerActive" xml:space="preserve">
+    <value>Sesja programu została przerwana. Program zostanie zamknięty.</value>
+  </data>
+  <data name="ApplicationButtonText" xml:space="preserve">
+    <value>System</value>
+    <comment>FR = "Système", DE = "Optionen" #75287</comment>
+  </data>
+  <data name="ComarchERP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ComarchERPBusiness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ApplicationExits" xml:space="preserve">
+    <value>Aplikacja zakończy działanie.</value>
+  </data>
+  <data name="ExtensionFound" xml:space="preserve">
+    <value>System wykrył, że wykorzystujesz niestandardowe rozszerzenia systemu.</value>
+  </data>
+  <data name="ExtensionLicenseNotFound" xml:space="preserve">
+    <value>Niestety nie posiadasz licencji na rozszerzanie systemu.</value>
+  </data>
+  <data name="ConfigurationErrorsException" xml:space="preserve">
+    <value>Brak uprawnień do modyfikacji pliku! Zamknij aplikację i uruchom ponownie z podwyższonymi uprawnieniami.</value>
+  </data>
+  <data name="ComarchERPSplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ComarchERPSplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LicenseLost" xml:space="preserve">
+    <value>Brak licencji użytkownika</value>
+  </data>
+  <data name="LicenseLostText" xml:space="preserve">
+    <value>Naciśnij OK aby ponowić próbę uzyskania licencji!</value>
+  </data>
+  <data name="LogInAgainQuestion" xml:space="preserve">
+    <value>Jesteś zalogowany na innym stanowisku. Czy pozostawić aktywne sesje?</value>
+  </data>
+  <data name="infoText" xml:space="preserve">
+    <value>Informacja</value>
+  </data>
+  <data name="LastSessionWasTerminated" xml:space="preserve">
+    <value>Poprzednia sesja operatora {0} została przerwana. W celu uzyskania szczegółowych informacji skontaktuj się z administratorem systemu.</value>
+  </data>
+  <data name="UserHasOpenSessions" xml:space="preserve">
+    <value>Operator {0} ma otwarte sesje:</value>
+  </data>
+  <data name="UserSession" xml:space="preserve">
+    <value>({0}) na stanowisku {1}</value>
+  </data>
+  <data name="LicenseKeyError" xml:space="preserve">
+    <value>Błąd klucza licencyjnego!</value>
+  </data>
+  <data name="LicenseNotFound" xml:space="preserve">
+    <value>Parametry usługi licencjonowania są nieprawidłowe lub nie znaleziono poprawnej licencji!</value>
+  </data>
+  <data name="OperationCanceled" xml:space="preserve">
+    <value>Operacja anulowana przez użytkownika.</value>
+  </data>
+  <data name="NoActiveRetailCompanyUnits" xml:space="preserve">
+    <value>Oddział jest nieaktywny. Nie można się zalogować do Comarch Retail.</value>
+  </data>
+  <data name="StringEmpty" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Zamknij</value>
+  </data>
+  <data name="ReadOnly" xml:space="preserve">
+    <value>Czy chcesz kontynuować w trybie 'Tylko do odczytu'?</value>
+  </data>
+  <data name="NipCheckFailed" xml:space="preserve">
+    <value>Weryfikacja NIPów zakończyła sie wyjątkiem!</value>
+  </data>
+  <data name="NipViolation" xml:space="preserve">
+    <value>W systemie występuje naruszenie unikalności NIPów!</value>
+  </data>
+  <data name="ComarchRetailWallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ComarchRetailWallpaper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ComarchRetail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ComarchRetail.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnauthorizedAccess" xml:space="preserve">
+    <value>Zapis konfiguracji nie powiódł się! Prawdopodobnie nie posiadasz uprawnień do zapisu w katalogu aplikacji.</value>
+  </data>
+  <data name="LicenseServerFormContinueButton" xml:space="preserve">
+    <value>Kontynuuj</value>
+  </data>
+  <data name="ButtonActive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonActive.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonDisabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonDisabled.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonHover.PNG;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoginBadPassword" xml:space="preserve">
+    <value>Wprowadzone dane Użytkownika są niepoprawne. Spróbuj ponownie lub skontaktuj się z administratorem systemu.</value>
+  </data>
+  <data name="LoginCannotLogIn" xml:space="preserve">
+    <value>Wprowadzone dane Użytkownika są niepoprawne. Spróbuj ponownie lub skontaktuj się z administratorem systemu.</value>
+  </data>
+  <data name="POObig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\POObig.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Altum_login_Projekt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Altum_login_Projekt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wallepapper_Login_Altum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wallepapper_Login_Altum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wallepapper_Login_Retail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wallepapper_Login_Retail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wallepapper_Login_Standard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wallepapper_Login_Standard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_DB_Manager" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login_DB_Manager.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_Refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login_Refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_Start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login_Start.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ComarchRetailSplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ComarchRetailSplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lang_DE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lang_DE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lang_EN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lang_EN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lang_ES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lang_ES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lang_FR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lang_FR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lang_PL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lang_PL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoginPasswordExpired" xml:space="preserve">
+    <value>Upłynął termin ważności hasła.</value>
+  </data>
+  <data name="LoginCannotChangePassword" xml:space="preserve">
+    <value>Nie można zmienić hasła, ponieważ operator ma otwarte inne sesje.</value>
+  </data>
+  <data name="DigitalSignatureNotConfiguredErrorCaption" xml:space="preserve">
+    <value>Błąd konfiguracji podpisu cyfrowego.</value>
+  </data>
+</root>

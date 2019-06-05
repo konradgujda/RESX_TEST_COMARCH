@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NipCheckFailed" xml:space="preserve">
+    <value>La verifica dei numeri IVA è stata completata con eccezione.</value>
+    <comment>d={Weryfikacja NIPów zakończyła sie wyjątkiem!} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="NipViolation" xml:space="preserve">
+    <value>Nel sistema si è verificata la violazione dell'unicità dei numeri IVA!</value>
+    <comment>d={W systemie występuje naruszenie unikalności NIPów!} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="UnauthorizedAccess" xml:space="preserve">
+    <value>Salvataggio della configurazione non riuscito. Probabilmente l'utente non è autorizzato a effettuare il salvataggio nella directory dell'applicazione.</value>
+    <comment>d={Zapis konfiguracji nie powiódł się! Prawdopodobnie nie posiadasz uprawnień do zapisu w katalogu aplikacji.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LicenseServerFormContinueButton" xml:space="preserve">
+    <value>Continua</value>
+    <comment>d={Kontynuuj} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LoginBadPassword" xml:space="preserve">
+    <value>I dati dell'utente inseriti non sono validi. Riprova o contatta l'amministratore di sistema.</value>
+    <comment>d={Wprowadzone dane Użytkownika są niepoprawne. Spróbuj ponownie lub skontaktuj się z administratorem systemu.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LoginCannotLogIn" xml:space="preserve">
+    <value>I dati dell'utente inseriti non sono validi. Riprova o contatta l'amministratore di sistema.</value>
+    <comment>d={Wprowadzone dane Użytkownika są niepoprawne. Spróbuj ponownie lub skontaktuj się z administratorem systemu.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LastSessionWasTerminated" xml:space="preserve">
+    <value>La sessione precedente dell'operatore {0} è stata chiusa. Contatta l'amministratore di sistema per ulteriori informazioni.</value>
+    <comment>d={Poprzednia sesja operatora {0} została przerwana. W celu uzyskania szczegółowych informacji skontaktuj się z administratorem systemu.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="UserHasOpenSessions" xml:space="preserve">
+    <value>Le seguenti sessioni aperte sono assegnate all'operatore {0}:</value>
+    <comment>d={Operator {0} ma otwarte sesje:} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="UserSession" xml:space="preserve">
+    <value>({0}) alla postazione {1}</value>
+    <comment>d={({0}) na stanowisku {1}} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LicenseKeyError" xml:space="preserve">
+    <value>Errore del codice di licenza!</value>
+    <comment>d={Błąd klucza licencyjnego!} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LicenseNotFound" xml:space="preserve">
+    <value>I parametri del servizio di licenze non sono validi oppure non è stata trovata una licenza valida.</value>
+    <comment>d={Parametry usługi licencjonowania są nieprawidłowe lub nie znaleziono poprawnej licencji!} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="OperationCanceled" xml:space="preserve">
+    <value>Operazione annullata dall'utente.</value>
+    <comment>d={Operacja anulowana przez użytkownika.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="NoActiveRetailCompanyUnits" xml:space="preserve">
+    <value>La filiale non è attiva. Impossibile accedere a Comarch Retail.</value>
+    <comment>d={Oddział jest nieaktywny. Nie można się zalogować do Comarch Retail.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Chiudi</value>
+    <comment>d={Zamknij} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="ReadOnly" xml:space="preserve">
+    <value>Vuoi continuare in modalità di sola lettura?</value>
+    <comment>d={Czy chcesz kontynuować w trybie 'Tylko do odczytu'?} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LicenseLost" xml:space="preserve">
+    <value>Licenza utente mancante!</value>
+    <comment>d={Brak licencji użytkownika} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LicenseLostText" xml:space="preserve">
+    <value>Clicca ok per riprovare a ottenere la licenza!</value>
+    <comment>d={Naciśnij OK aby ponowić próbę uzyskania licencji!} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LogInAgainQuestion" xml:space="preserve">
+    <value>Sei già connesso a un'altra postazione. Vuoi mantenere le sessioni attive?</value>
+    <comment>d={Jesteś zalogowany na innym stanowisku. Czy pozostawić aktywne sesje?} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="infoText" xml:space="preserve">
+    <value>Informazione</value>
+    <comment>d={Informacja} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="AddShortcutOnDesktop" xml:space="preserve">
+    <value>Aggiungi collegamento sul desktop</value>
+    <comment>d={Dodaj skrót na pulpicie {0}} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="SessionNoLongerActive" xml:space="preserve">
+    <value>La sessione del programma è stata interrotta. Il programma verrà chiuso.</value>
+    <comment>d={Sesja programu została przerwana. Program zostanie zamknięty.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="ApplicationButtonText" xml:space="preserve">
+    <value>Sistema</value>
+    <comment>d={System} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="ApplicationExits" xml:space="preserve">
+    <value>L'applicazione verrà chiusa.</value>
+    <comment>d={Aplikacja zakończy działanie.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="ExtensionFound" xml:space="preserve">
+    <value>Il sistema ha rilevato che stai usando un'estensione non standard del sistema.</value>
+    <comment>d={System wykrył, że wykorzystujesz niestandardowe rozszerzenia systemu.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="ExtensionLicenseNotFound" xml:space="preserve">
+    <value>Sfortunatamente, non sei in possesso di licenza per estendere il sistema.</value>
+    <comment>d={Niestety nie posiadasz licencji na rozszerzanie systemu.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="ConfigurationErrorsException" xml:space="preserve">
+    <value>L'utente non è autorizzato a modificare il file. Chiudi l'applicazione e riavviala con autorizzazioni elevate.</value>
+    <comment>d={Brak uprawnień do modyfikacji pliku! Zamknij aplikację i uruchom ponownie z podwyższonymi uprawnieniami.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Domanda</value>
+    <comment>d={Pytanie} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="UserGroupNotSetToCompanyUnit" xml:space="preserve">
+    <value>Al centro non è assegnato alcun grupo dell'utente.</value>
+    <comment>d={Żadna grupa użytkownika nie jest przypisana do centrum} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="UpdateMutexAlreadyLocked" xml:space="preserve">
+    <value>Impossibile avviare il sistema durante l'aggiornamento.</value>
+    <comment>d={Nie można uruchomić systemu w czasie trwania aktualizacji.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="InfoLoginToConfDatabaseFailed" xml:space="preserve">
+    <value>Accesso al database di configurazione non riuscito. Inserisci il nome utente e la password per accedere.</value>
+    <comment>d={Logowanie do bazy konfiguracyjnej zakończyło się niepowodzeniem. Proszę podać nazwę użytkownka i hasło, by się zalogować.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="InfoLoginToConfDatabaseWithExplicitUser" xml:space="preserve">
+    <value>Mancanza di connessione al database di configurazione selezionato. Il database non è disponibile o i dati di accesso specificati non sono validi. Inserisci il nome utente a la password e riprova.</value>
+    <comment>d={Błąd połączenia z wybraną bazą konfiguracyjną. Baza konfiguracyjna jest niedostępna lub podano błędne dane do logowania. Proszę podać nazwę użytkownka oraz hasło i spróbować ponownie.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="IfReindex" xml:space="preserve">
+    <value>Vuoi reindicizzare il database dopo la conversione?</value>
+    <comment>d={Czy dokonać reindeksacji bazy danych po zakończeniu konwersji?} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LicenseServerFromAppText" xml:space="preserve">
+    <value>Selezione server licenze</value>
+    <comment>d={Wybór serwera licencji} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="NoLoginUntilSynchronization" xml:space="preserve">
+    <value>Per accedere bisogna effettuare la sincronizzazione.</value>
+    <comment>d={Do zalogowania się wymagane jest przeprowadzenie synchronizacji} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="UserAlreadyLoggedIn" xml:space="preserve">
+    <value>L'utente è già connesso.</value>
+    <comment>d={Użytkownik jest już zalogowany.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="UserNotLoggedIn" xml:space="preserve">
+    <value>Utente non connesso.</value>
+    <comment>d={Użytkownik nie jest zalogowany.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="CredentialsFormAppText" xml:space="preserve">
+    <value>Parametri di accesso</value>
+    <comment>d={Parametry logowania} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="CredentialsFormWindowText" xml:space="preserve">
+    <value>Database di configurazione</value>
+    <comment>d={Baza konfiguracyjna} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="DemoInfoFormWindowText" xml:space="preserve">
+    <value>Notifiche sulla versione demo</value>
+    <comment>d={Powiadomienie o wersji demonstracyjnej} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LicenseServerFormWindowText" xml:space="preserve">
+    <value>Licenza</value>
+    <comment>d={Licencjonowanie} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="PortFieldReq" xml:space="preserve">
+    <value>Non è stata indicata alcuna porta del servizio di licenze.</value>
+    <comment>d={Nie wskazano portu usługi licencyjnej.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="PortParseErr" xml:space="preserve">
+    <value>Il valore del campo '{0}' è scorretto!</value>
+    <comment>d={Wartość w polu '{0}' jest nieprawidłowa!} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="NoCompanyUnits" xml:space="preserve">
+    <value>L'utente non è assegnato a nessun centro.</value>
+    <comment>d={Użytkownik nie jest przypisany do żadnego centrum.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="InternalSystemError" xml:space="preserve">
+    <value>Si è verificato un errore imprevisto di sistema.</value>
+    <comment>d={Wystąpił nieoczekiwany błąd systemu.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="DemoVersion" xml:space="preserve">
+    <value>Applicazione in modalità Demo.</value>
+    <comment>d={Aplikacja w trybie Demo.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="BackToNormalVersion" xml:space="preserve">
+    <value>Chiave HASP rilevata. L'applicazione è tornata alla modalità completa.</value>
+    <comment>d={Klucz HASP wykryty. Aplikacja powróciła do trybu pełnego.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="NoHasp" xml:space="preserve">
+    <value>Chiave HASP non rilevata. L'applicazione sta lavorando in modalità demo. Vuoi riprovare la connessione alla chiave HASP?</value>
+    <comment>d={Nie wykryto klucza HASP. Aplikacja w trybie DEMO. Czy ponowic próbę połaczenia z kluczem HASP?} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LicenseKeyInfo" xml:space="preserve">
+    <value>Informazioni sulla licenza</value>
+    <comment>d={Informacja o licencji} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LicenseKeyNoValidLicense" xml:space="preserve">
+    <value>Non sei in possesso di una licenza valida. Vuoi utilizzare la versione demo?</value>
+    <comment>d={Nie masz zainstalowanej poprawnej licencji. Czy chcesz rozpocząć pracę w trybie demo?} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="DaysLeftOfDemoVersionInfo" xml:space="preserve">
+    <value>Stai utilizzando la versione demo. Puoi emettere i documenti ancora per {0} giorni.</value>
+    <comment>d={Pracujesz w trybie demo. Możesz wystawiać dokumenty jeszcze przez {0} dni.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="BuyAltumWarning" xml:space="preserve">
+    <value>Acquista la versione completa del sistema.</value>
+    <comment>d={Kup pełną wersję systemu.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Errore</value>
+    <comment>d={Błąd} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="UserOffLine" xml:space="preserve">
+    <value>Connessione al database non riuscita. Controlla il cavo di rete.</value>
+    <comment>d={Nie udało się nawiązać połączenia z bazą danych. Sprawdź kabel sieciowy.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LicenseManagerToolNotFound" xml:space="preserve">
+    <value>Non è stato trovato alcuno strumento di configurazione del servizio di licenze.</value>
+    <comment>d={Nie znaleziono narzędzia konfiguracji serwisu licencyjnego.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="EmptyNameNotAllowed" xml:space="preserve">
+    <value>ll nome del server è obbligatorio.</value>
+    <comment>d={Nazwa serwera nie moze być pusta!} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Porta</value>
+    <comment>d={Port} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="ConversionSuccess" xml:space="preserve">
+    <value>La conversione del database {0} è stata completata con successo.</value>
+    <comment>d={Konwersja bazy {0} zakończona sukcesem} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="DatabaseNotActual" xml:space="preserve">
+    <value>La versione {0} del database è obsoleta. Vuoi convertirla alla versione attuale?</value>
+    <comment>d={Wersja bazy {0} nie jest aktualna. Czy rozpocząć konwersję bazy do aktualnej wersji?} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="NoUserAcountErrot" xml:space="preserve">
+    <value>L'utente non possiede un account nel database selezionato.</value>
+    <comment>d={Użytkownik nie posiada konta na wybranej bazie.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="NotCompleteConversion" xml:space="preserve">
+    <value>Non è stato possibile eseguire la conversione completa del database {0}. Versione attuale del database: {1}</value>
+    <comment>d={Nie udało się dokonać pełnej konwersji bazy {0}. Obecna wersja bazy: {1}} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LoginDatabaseConnectionError" xml:space="preserve">
+    <value>Errore di connessione al database selezionato.</value>
+    <comment>d={Błąd połączenia z wybraną bazą danych.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LoginApplicationText" xml:space="preserve">
+    <value>versione</value>
+    <comment>d={wersja} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="DatabaseVersion" xml:space="preserve">
+    <value>Versione database</value>
+    <comment>d={Wersja bazy} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LoginNoContextForUser" xml:space="preserve">
+    <value>Impossibile accedere senza contesto.</value>
+    <comment>d={Nie można logować się bez kontekstu.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="ManyConnections" xml:space="preserve">
+    <value>Altri utenti sono connessi al database {0}. Vuoi interrompere le connessioni e cominciare la conversione?</value>
+    <comment>d={Do bazy {0} są podłączone inne osoby. Czy przerwać połączenia i rozpocząć konwersję?} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="NoUserAcountInfo" xml:space="preserve">
+    <value>Impossibile accedere a {0}.</value>
+    <comment>d={Nie można zalogować się do {0}.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="BaseNewer" xml:space="preserve">
+    <value>La versione dell'applicazione è più vecchia della versione del database selezionato. Seleziona un altro database o avvia l'applicazione nella versione {0}.</value>
+    <comment>d={Wersja aplikacji jest starsza niż wersja wybranej bazy. Wybierz inną bazę lub uruchom aplikację w wersji {0}.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LoginEmptyConfigDatabase" xml:space="preserve">
+    <value>Database mancante. Aggiungi un database tramite il gestore database.</value>
+    <comment>d={Brak baz danych. Dodaj bazę w menedżerze.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LoginConfigDatabaseConnectionError" xml:space="preserve">
+    <value>Errore di connessione al database di configurazione.</value>
+    <comment>d={Błąd połączenia z bazą konfiguracyjną.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="IfBackup" xml:space="preserve">
+    <value>Vuoi eseguire il backup del database prima di avviare la conversione?</value>
+    <comment>d={Czy chcesz zrobić kopię zapasową bazy przed konwersją?} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="ErrorGettingVersion" xml:space="preserve">
+    <value>Errore durante lo scaricamento della versione del database {0}. Possibile mancanza del database di configurazione. Avvia il gestore database.</value>
+    <comment>d={Błąd przy pobieraniu wersji bazy {0}. Możliwy brak bazy konfiguracyjnej. Uruchom menadżera baz.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="NoAccess" xml:space="preserve">
+    <value>Mancanza di autorizzazioni per convertire il database {0}.</value>
+    <comment>d={Brak odpowiednich uprawnień do konwersji bazy {0}} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="ErrorGettingVersionOld" xml:space="preserve">
+    <value>Errore durante lo scaricamento della versione del database {0}.</value>
+    <comment>d={Błąd przy pobieraniu wersji bazy {0}.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="ConfBaseNewer" xml:space="preserve">
+    <value>La versione dell'applicazione è più vecchia della versione del database di configurazione. Avvia il gestore database per cambiare il database di configurazione</value>
+    <comment>d={Wersja aplikacji jest starsza niż wersja bazy konfiguracyjnej. Uruchom menadżera baz aby zmienić bazę konfiguracyjną.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LoginCannotChangePassword" xml:space="preserve">
+    <value>Impossibile modificare la password interna, perché all'operatore sono assegnate altre sessioni aperte.</value>
+    <comment>d={Nie można zmienić hasła, ponieważ operator ma otwarte inne sesje.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="DigitalSignatureNotConfiguredErrorCaption" xml:space="preserve">
+    <value>Errore durante la configurazione della firma digitale</value>
+    <comment>d={Błąd konfiguracji podpisu cyfrowego.} a={Katarzyna.Sledz}</comment>
+  </data>
+  <data name="LoginPasswordExpired" xml:space="preserve">
+    <value>Il periodo di validità della password è scaduto.</value>
+    <comment>d={Upłynął termin ważności hasła.} a={Katarzyna.Sledz}</comment>
+  </data>
+</root>

@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DemoVersion" xml:space="preserve">
+    <value>Application en mode de démonstration</value>
+    <comment>d={Aplikacja w trybie Demo.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="LoginNoContextForUser" xml:space="preserve">
+    <value>Impossible de se connecter sans indiquer le contexte.</value>
+    <comment>d={Nie można logować się bez kontekstu.} a={iwona.czarnota}</comment>
+  </data>
+  <data name="HASP_Invalid_XML_spec" xml:space="preserve">
+    <value>Erreur de format XML</value>
+    <comment>d={Błędny format w XML} a={}</comment>
+  </data>
+  <data name="NoUserAcountInfo" xml:space="preserve">
+    <value>Impossible de se connecter à {0}.</value>
+    <comment>d={Nie można zalogować się do {0}.} a={iwona.czarnota}</comment>
+  </data>
+  <data name="LoginBadPassword" xml:space="preserve">
+    <value>Les données de l'utilisateur saisies sont incorrectes. Réessayez ou contactez l'administrateur du système.</value>
+    <comment>d={Wprowadzone dane Użytkownika są niepoprawne. Spróbuj ponownie lub skontaktuj się z administratorem systemu.} a={iwona.czarnota}</comment>
+  </data>
+  <data name="BackToNormalVersion" xml:space="preserve">
+    <value>La clé HASP a été détectée. L'application fonctionne de nouveau en version complète.</value>
+    <comment>d={Klucz HASP wykryty. Aplikacja powróciła do trybu pełnego.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="NoHasp" xml:space="preserve">
+    <value>La clé HASP n'a pas été détectée. L'application fonctionne en mode de démonstration. Voulez-vous réessayer de brancher la clé HASP?</value>
+    <comment>d={Nie wykryto klucza HASP. Aplikacja w trybie DEMO. Czy ponowic próbę połaczenia z kluczem HASP?} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="LoginApplicationText" xml:space="preserve">
+    <value>version</value>
+    <comment>d={wersja} a={monika.pasztor}</comment>
+  </data>
+  <data name="DatabaseVersion" xml:space="preserve">
+    <value>Version de la base</value>
+    <comment>d={Wersja bazy} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="InternalSystemError" xml:space="preserve">
+    <value>Une erreur inattendue du système s'est produite.</value>
+    <comment>d={Wystąpił nieoczekiwany błąd systemu.} a={monika.pasztor}</comment>
+  </data>
+  <data name="HASP_Invalid_update_object" xml:space="preserve">
+    <value>L'objet actualisé est incorrect</value>
+    <comment>d={Niewłaściwy uaktualniany obiekt} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_memory_address" xml:space="preserve">
+    <value>Adresse incorrecte dans la mémoire</value>
+    <comment>d={Niewłaściwy adres w pamięci} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_port" xml:space="preserve">
+    <value>Port incorrect</value>
+    <comment>d={Niewłaściwy port} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_XML_scope" xml:space="preserve">
+    <value>Champ incorrect dans XML</value>
+    <comment>d={Niewłaściwy zakres w XML} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_A_parameter_is_invalid" xml:space="preserve">
+    <value>Paramètre incorrect</value>
+    <comment>d={Niewłaściwy parametr} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="NoUserAcountErrot" xml:space="preserve">
+    <value>L'utilisateur n'a pas de compte dans la base sélectionnée.</value>
+    <comment>d={Użytkownik nie posiada konta na wybranej bazie.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="HASP_Key_with_requested_id_was_not_found" xml:space="preserve">
+    <value>La clé avec l'identifiant sélectionné n'a pas été détectée.</value>
+    <comment>d={Klucz z żądanym id nie został odnaleziony} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_Invalid_port_type" xml:space="preserve">
+    <value>Type de port incorrect</value>
+    <comment>d={Niewłaściwy typ portu} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_Incompatible_feature" xml:space="preserve">
+    <value>Caractéristique incompatible</value>
+    <comment>d={Niekompatybilna cecha} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_Update_installation_not_allowed" xml:space="preserve">
+    <value>L'actualisation de l'installation n'est pas permise</value>
+    <comment>d={Uaktualnienie instalacji jest niedozwolone} a={}</comment>
+  </data>
+  <data name="HASP_Feature_access_denied" xml:space="preserve">
+    <value>Accès aux caractères interdit</value>
+    <comment>d={Zabroniony dostęp do cechy} a={}</comment>
+  </data>
+  <data name="HASP_Unknown_algorithm" xml:space="preserve">
+    <value>Algorithme inconnu</value>
+    <comment>d={Nieznany algorytm} a={}</comment>
+  </data>
+  <data name="HASP_Unknown_invalid_feature_id_option" xml:space="preserve">
+    <value>Profil ID inconnu ou erroné</value>
+    <comment>d={Nieznane/błędne id cechy} a={}</comment>
+  </data>
+  <data name="HASP_Unable_to_excecute_complete_the_operation" xml:space="preserve">
+    <value>Impossible d'accomplir cette opération</value>
+    <comment>d={Nie można wykonać/dokończyć operacji} a={}</comment>
+  </data>
+  <data name="HASP_Generic_error_from_host_system_call" xml:space="preserve">
+    <value>Erreur interne dans le système opérationnel</value>
+    <comment>d={Wewnętrzny błąd systemu operacyjnego} a={}</comment>
+  </data>
+  <data name="HASP_Update_was_already_installed" xml:space="preserve">
+    <value>L'actualisation a déjà été installée</value>
+    <comment>d={Uaktualnienie już zostało zainstalowane} a={}</comment>
+  </data>
+  <data name="HASP_HASP_not_found" xml:space="preserve">
+    <value>Clé HASP non détectée</value>
+    <comment>d={Nie wykryto klucza HASP} a={}</comment>
+  </data>
+  <data name="HASP_Secure_storage_contains_garbage" xml:space="preserve">
+    <value>Éléments non conformes dans l'espace de sécurité.</value>
+    <comment>d={Nieprawidłowe elementy w przestrzeni bezpieczeństwa.} a={}</comment>
+  </data>
+  <data name="HASP_Capability_is_not_available" xml:space="preserve">
+    <value>Fonction non disponible</value>
+    <comment>d={Funkcjonalność niedostępna} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_Requested_encryption_algorithm_not_supported" xml:space="preserve">
+    <value>Le codage de l'algorithme sélectionné n'est pas supporté</value>
+    <comment>d={Żądany algorytm kodowanie nie jest wspierany} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_Already_logged_out" xml:space="preserve">
+    <value>Connexion déjà existante</value>
+    <comment>d={Już wylogowany} a={}</comment>
+  </data>
+  <data name="LoginEmptyConfigDatabase" xml:space="preserve">
+    <value>Aucune base de données créée. Ajoutez une base dans le gestionnaire des bases de données.</value>
+    <comment>d={Brak baz danych. Dodaj bazę w menedżerze.} a={monika.mazurek}</comment>
+  </data>
+  <data name="HASP_Internal_API_error" xml:space="preserve">
+    <value>Erreur interne API</value>
+    <comment>d={Wewnętrzny błąd API} a={}</comment>
+  </data>
+  <data name="HASP_Success" xml:space="preserve">
+    <value>Exécuté avec succès</value>
+    <comment>d={Zakończono powodzeniem} a={}</comment>
+  </data>
+  <data name="HASP_Broken_session" xml:space="preserve">
+    <value>Session interrompue</value>
+    <comment>d={Zerwana sesja} a={}</comment>
+  </data>
+  <data name="HASP_Update_not_supported_by_this_key" xml:space="preserve">
+    <value>L'actualisation n'est pas supportée par cette clé</value>
+    <comment>d={Uaktualnienie nie jest wspierane przez ten klucz} a={}</comment>
+  </data>
+  <data name="HASP_Too_many_users" xml:space="preserve">
+    <value>Nombre d'utilisateur trop important</value>
+    <comment>d={Zbyt wielu użytkowników} a={}</comment>
+  </data>
+  <data name="LoginConfigDatabaseConnectionError" xml:space="preserve">
+    <value>Erreur de connexion à la base de configuration</value>
+    <comment>d={Błąd połączenia z bazą konfiguracyjną.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="HASP_The_feature_is_expired" xml:space="preserve">
+    <value>Caractéristique expirée</value>
+    <comment>d={Cecha wygasła} a={}</comment>
+  </data>
+  <data name="ManyConnections" xml:space="preserve">
+    <value>D'autres utilisateurs sont connectés à la base {0}. Interrompre la connexion et commencer la conversion?</value>
+    <comment>d={Do bazy {0} są podłączone inne osoby. Czy przerwać połączenia i rozpocząć konwersję?} a={monika.pasztor}</comment>
+  </data>
+  <data name="HASP_HASP_update_incompatible_with_this_hardware" xml:space="preserve">
+    <value>L'actualisation HASP n'est pas compatible avec ce matériel; la clé HASP est réservée pour un matériel différent</value>
+    <comment>d={Uaktualnienie HASP nie jest kompatybilne z tym sprzętem; Klucz HASP jest zablokowany dla innego sprzętu} a={}</comment>
+  </data>
+  <data name="HASP_Communication_error_between_application_and_local_LM" xml:space="preserve">
+    <value>Erreur de communication entre l'application et le service local de licence</value>
+    <comment>d={Bład komunikacji pomiędzy aplikacją i lokalnym serwisem licencji} a={}</comment>
+  </data>
+  <data name="HASP_Communication_error_between_local_and_remote_LM" xml:space="preserve">
+    <value>Erreur de communication entre le service local et le service distant de licence</value>
+    <comment>d={Błąd komunikacji pomiędzy lokalnym a zdalnym serwisem licencji} a={}</comment>
+  </data>
+  <data name="HASP_En_decryption_length_too_short" xml:space="preserve">
+    <value>Le codage/décodage des données est trop court</value>
+    <comment>d={Kodowane/Dekodowane dane są zbyt krótkie} a={}</comment>
+  </data>
+  <data name="HASP_The_found_and_assigned_API_dynamic_library_could_not_be_verified" xml:space="preserve">
+    <value>La bibliothèque API trouvée et signée ne peut être vérifiée</value>
+    <comment>d={Znaleziona i podpisana biblioteka API nie może zostać zweryfikowa} a={}</comment>
+  </data>
+  <data name="BaseNewer" xml:space="preserve">
+    <value>La version de l'application est plus ancienne que celle de la base sélectionnée. Sélectionnez une autre base ou bien démarrez l'application en version {0}.</value>
+    <comment>d={Wersja aplikacji jest starsza niż wersja wybranej bazy. Wybierz inną bazę lub uruchom aplikację w wersji {0}.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="HASP_Unrecognized_info_format" xml:space="preserve">
+    <value>Format d'information non reconnaissable</value>
+    <comment>d={Nierozpoznany format informacji} a={}</comment>
+  </data>
+  <data name="ConfBaseNewer" xml:space="preserve">
+    <value>La version de l'application est plus ancienne que celle de la base de configuration. Démarrez le gestionnaire des bases pour changer la base de configuration.</value>
+    <comment>d={Wersja aplikacji jest starsza niż wersja bazy konfiguracyjnej. Uruchom menadżera baz aby zmienić bazę konfiguracyjną.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="HASP_Memory_allocation_failed" xml:space="preserve">
+    <value>Erreur d'affectation de la mémoire</value>
+    <comment>d={Błąd alokacji pamięci} a={}</comment>
+  </data>
+  <data name="HASP_A_required_API_dynamic_library_was_not_found" xml:space="preserve">
+    <value>La bibliothèque API exigée n'a pas été trouvée.</value>
+    <comment>d={Wymagana dynamiczna biblioteka API nie została odnaleziona} a={}</comment>
+  </data>
+  <data name="HASP_Another_update_must_be_installed_first" xml:space="preserve">
+    <value>Une autre actualisation doit être installée préalablement.</value>
+    <comment>d={Inne uaktualnienie musi zostać zainstalowane wcześniej} a={}</comment>
+  </data>
+  <data name="HASP_Update_requested_ack_but_no_area_to_return_it" xml:space="preserve">
+    <value>L'actualisation exige une réponse, mais aucune destination n'a été trouvée.</value>
+    <comment>d={Uaktualnienie wymaga odpowiedzi, ale nie znaleziono punktu docelowego} a={}</comment>
+  </data>
+  <data name="HASP_Feature_type_not_implemented" xml:space="preserve">
+    <value>Type de caractères non implanté</value>
+    <comment>d={Niezaimplementowany typ cechy} a={}</comment>
+  </data>
+  <data name="HASP_Vendor_lib_cannot_be_loaded" xml:space="preserve">
+    <value>La bibliothèque des vendeurs ne peut être lancée.</value>
+    <comment>d={Biblioteka sprzedawcy nie może zostać załadowana} a={}</comment>
+  </data>
+  <data name="HASP_Trace_log_not_enabled" xml:space="preserve">
+    <value>Recherche des logs impossible</value>
+    <comment>d={Śledzenie logów nie jest możliwe} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="IfBackup" xml:space="preserve">
+    <value>Voulez-vous faire une copie de sauvegarde avant de convertir?</value>
+    <comment>d={Czy chcesz zrobić kopię zapasową bazy przed konwersją?} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="HASP_Request_not_supported" xml:space="preserve">
+    <value>La requête n'est pas supportée</value>
+    <comment>d={Żadanie nie jest wspierane} a={}</comment>
+  </data>
+  <data name="HASP_Virtual_machine_detected" xml:space="preserve">
+    <value>Machine virtuelle détectée</value>
+    <comment>d={Wykryto wirtualną maszynę} a={}</comment>
+  </data>
+  <data name="ErrorGettingVersion" xml:space="preserve">
+    <value>Erreur lors du chargement de la version de la base {0}. Il manque probablement la base de configuration. Démarrez le gestionnaire des bases.</value>
+    <comment>d={Błąd przy pobieraniu wersji bazy {0}. Możliwy brak bazy konfiguracyjnej. Uruchom menadżera baz.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="NoAccess" xml:space="preserve">
+    <value>Vous n'êtes pas autorisé à convertir la base {0}.</value>
+    <comment>d={Brak odpowiednich uprawnień do konwersji bazy {0}} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="HASP_Too_many_open_features" xml:space="preserve">
+    <value>Nombre de caractères ouverts trop important</value>
+    <comment>d={Zbyt wiele otwartych cech} a={}</comment>
+  </data>
+  <data name="ErrorGettingVersionOld" xml:space="preserve">
+    <value>Erreur lors du chargement de la version de la base {0}</value>
+    <comment>d={Błąd przy pobieraniu wersji bazy {0}.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="HASP_Update_data_consistency_check_failed" xml:space="preserve">
+    <value>Erreur lors de la vérification de la cohésion des données actualisées</value>
+    <comment>d={Błąd sprawdzania spójności uaktualnianych danych} a={}</comment>
+  </data>
+  <data name="ConversionSuccess" xml:space="preserve">
+    <value>Conversion de la base {0} terminée avec succès</value>
+    <comment>d={Konwersja bazy {0} zakończona sukcesem} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="HASP_Vendor_lib_cannot_be_found" xml:space="preserve">
+    <value>Impossible de trouver la bibliothèque des vendeurs</value>
+    <comment>d={Nie można odnaleźć biblioteki sprzedawcy} a={}</comment>
+  </data>
+  <data name="HASP_HASP_LM_version_too_old" xml:space="preserve">
+    <value>Version du service de licence trop ancienne</value>
+    <comment>d={Za stara wersja serwisu licencji} a={}</comment>
+  </data>
+  <data name="HASP_Secure_channel_communication_error" xml:space="preserve">
+    <value>Erreur de communication sur le canal sécurisé</value>
+    <comment>d={Błąd komunikacji na bezpiecznym kanale} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_Login_denied_because_of_user_restrictions" xml:space="preserve">
+    <value>Connexion impossible en raison d'une limitation des chargements par utilisateur</value>
+    <comment>d={Logowanie zabronione z powodu ograniczeń nałożonych na użytkownika} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="DatabaseNotActual" xml:space="preserve">
+    <value>La version de la base {0} n'est pas actuelle. Voulez-vous commencer la conversion de la base à la version actuelle?</value>
+    <comment>d={Wersja bazy {0} nie jest aktualna. Czy rozpocząć konwersję bazy do aktualnej wersji?} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="HASP_Already_logged_in" xml:space="preserve">
+    <value>Vous êtes déjà connecté.</value>
+    <comment>d={Już zalogowany} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_Signature_check_failed" xml:space="preserve">
+    <value>Erreur de vérification de la signature</value>
+    <comment>d={Błąd sprawdzania sygnatury} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_Calling_invalid_object" xml:space="preserve">
+    <value>Appel d'objet incorrect</value>
+    <comment>d={Wywoływanie niewłaściwego obiektu} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_Update_counter_mismatch" xml:space="preserve">
+    <value>Erreur d'actualisation du compteur</value>
+    <comment>d={Błąd uaktualnienia licznika} a={}</comment>
+  </data>
+  <data name="NotCompleteConversion" xml:space="preserve">
+    <value>Échec de la conversion complète de la base {0}. Version actuelle de la base: {1}</value>
+    <comment>d={Nie udało się dokonać pełnej konwersji bazy {0}. Obecna wersja bazy: {1}} a={monika.pasztor}</comment>
+  </data>
+  <data name="LoginDatabaseConnectionError" xml:space="preserve">
+    <value>Erreur de connexion à la base de  données sélectionnée.</value>
+    <comment>d={Błąd połączenia z wybraną bazą danych.} a={monika.pasztor}</comment>
+  </data>
+  <data name="HASP_No_classic_memory_extension_block_available" xml:space="preserve">
+    <value>Quantité de mémoire de base insuffisante</value>
+    <comment>d={Niewystarczająca ilość pamięci podstawowej} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_Feature_not_found" xml:space="preserve">
+    <value>Caractéristiques données introuvable</value>
+    <comment>d={Nie odnaleziono podanej cechy} a={}</comment>
+  </data>
+  <data name="HASP_Driver_or_support_daemon_version_too_old" xml:space="preserve">
+    <value>Driver ou version supportée daemon trop ancien(ne).</value>
+    <comment>d={Sterownik lub wspierana wersja daemon jest zbyt stara.} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_Too_many_keys_connected" xml:space="preserve">
+    <value>Nombre de clés connectées trop important</value>
+    <comment>d={Podłączono zbyt wiele kluczy} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_Vendor_code_unknown_to_API_library_run_apigento_make_it_known" xml:space="preserve">
+    <value>Code de vendeur inconnu pour la bibliothèque API</value>
+    <comment>d={Nieznany kod sprzedawcy dla biblioteki API} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_Clock_out_of_power" xml:space="preserve">
+    <value>Batterie de l'horloge épuisée</value>
+    <comment>d={Wyczerpana bateria zegara} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_Invalid_vendor_code" xml:space="preserve">
+    <value>Code vendeur erroné</value>
+    <comment>d={Niewłaściwy kod sprzedawcy} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_No_feature_matching_scope_found" xml:space="preserve">
+    <value>Caractère correspondant au domaine non trouvé</value>
+    <comment>d={Nie znaleziono cech pasującej do zakresu} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_Hardware_key_driver_not_found" xml:space="preserve">
+    <value>Clé matérielle non détectée</value>
+    <comment>d={Sprzętowy klucz nie został odnaleziony} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_Real_time_support_not_available" xml:space="preserve">
+    <value>L'horloge de temps réel n'est pas soutenue</value>
+    <comment>d={Zegar czasu rzeczywistego nie jest wspierany} a={Matthieu.Petitjean}</comment>
+  </data>
+  <data name="HASP_Invalid_date__time" xml:space="preserve">
+    <value>Date ou temps incorrect(e)</value>
+    <comment>d={Niewłaściwa data lub czas} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_file_id_memory_descriptor" xml:space="preserve">
+    <value>Identifiant de fichier / de bloc mémoire incorrect</value>
+    <comment>d={Niewłaściwy identyfikator pliku / bloku pamięci} a={}</comment>
+  </data>
+  <data name="HASP_System_time_has_been_tampered" xml:space="preserve">
+    <value>Le temps du système a été manipulé.</value>
+    <comment>d={Czas systemowy został zmanipulowany.} a={}</comment>
+  </data>
+  <data name="LicenseKeyInfo" xml:space="preserve">
+    <value>Information sur la licence</value>
+    <comment>d={Informacja o licencji} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="LicenseKeyNoValidLicense" xml:space="preserve">
+    <value>Vous n'avez pas de licence valide installée. Voulez-vous démarrer le logiciel en mode de démonstration?</value>
+    <comment>d={Nie masz zainstalowanej poprawnej licencji. Czy chcesz rozpocząć pracę w trybie demo?} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="HASP_Terminal_services_remote_terminal_detected" xml:space="preserve">
+    <value>Services Terminaux détecté (accès à distance)</value>
+    <comment>d={Wykryto usługi terminalowe (zdalny dostęp)} a={}</comment>
+  </data>
+  <data name="HASP_HASP_SL_secure_storage_I_O_error_or_USB_request_error" xml:space="preserve">
+    <value>Erreur I/O de l'entrepôt sécurisé HASP SL ou erreur de tâche USB</value>
+    <comment>d={Błąd I/O bezpiecznego magazynu HASP SL lub błąd żadania USB} a={}</comment>
+  </data>
+  <data name="HASP_Invalid_handle" xml:space="preserve">
+    <value>Handle erroné</value>
+    <comment>d={Błędny uchwyt} a={}</comment>
+  </data>
+  <data name="DaysLeftOfDemoVersionInfo" xml:space="preserve">
+    <value>Vous travaillez en mode de démonstration. Vous pouvez établir les documents pendant {0} jour(s) encore.</value>
+    <comment>d={Pracujesz w trybie demo. Możesz wystawiać dokumenty jeszcze przez {0} dni.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="BuyAltumWarning" xml:space="preserve">
+    <value>Achetez la version complète du système.</value>
+    <comment>d={Kup pełną wersję systemu.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Erreur</value>
+    <comment>d={Błąd} a={monika.pasztor}</comment>
+  </data>
+  <data name="UserOffLine" xml:space="preserve">
+    <value>Il a été impossible d'établir la connexion à la base de données. Vérifiez le câble réseau.</value>
+    <comment>d={Nie udało się nawiązać połączenia z bazą danych. Sprawdź kabel sieciowy.} a={iwona.czarnota}</comment>
+  </data>
+  <data name="LicenseManagerToolNotFound" xml:space="preserve">
+    <value>L'outil de configuration du service de licence n'a pas été trouvé.</value>
+    <comment>d={Nie znaleziono narzędzia konfiguracji serwisu licencyjnego.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="EmptyNameNotAllowed" xml:space="preserve">
+    <value>Le nom du serveur ne peut pas être vide!</value>
+    <comment>d={Nazwa serwera nie moze być pusta!} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Port</value>
+    <comment>d={Port} a={monika.pasztor}</comment>
+  </data>
+  <data name="PortFieldReq" xml:space="preserve">
+    <value>Le port du service de licence n'est pas défini.</value>
+    <comment>d={Nie wskazano portu usługi licencyjnej.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="PortParseErr" xml:space="preserve">
+    <value>La valeur dans le champ '{0}' est incorrecte!</value>
+    <comment>d={Wartość w polu '{0}' jest nieprawidłowa!} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="NoCompanyUnits" xml:space="preserve">
+    <value>L'utilisateur n'est assigné à aucun centre.</value>
+    <comment>d={Użytkownik nie jest przypisany do żadnego centrum.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="CredentialsFormAppText" xml:space="preserve">
+    <value>Paramètres de connexion</value>
+    <comment>d={Parametry logowania} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="CredentialsFormWindowText" xml:space="preserve">
+    <value>Base de configuration</value>
+    <comment>d={Baza konfiguracyjna} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="DemoInfoFormWindowText" xml:space="preserve">
+    <value>Notification relative à la version de démonstration</value>
+    <comment>d={Powiadomienie o wersji demonstracyjnej} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="LicenseServerFormWindowText" xml:space="preserve">
+    <value>Obtention de licence</value>
+    <comment>d={Licencjonowanie} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="LicenseServerFromAppText" xml:space="preserve">
+    <value>Sélection du serveur de licence</value>
+    <comment>d={Wybór serwera licencji} a={iwona.czarnota}</comment>
+  </data>
+  <data name="NoLoginUntilSynchronization" xml:space="preserve">
+    <value>Il est nécessaire d'effectuer la synchronisation pour pouvoir se connecter.</value>
+    <comment>d={Do zalogowania się wymagane jest przeprowadzenie synchronizacji} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="UserAlreadyLoggedIn" xml:space="preserve">
+    <value>L'utilisateur est déjà connecté.</value>
+    <comment>d={Użytkownik jest już zalogowany.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="UserNotLoggedIn" xml:space="preserve">
+    <value>L'utilisateur n'est pas connecté.</value>
+    <comment>d={Użytkownik nie jest zalogowany.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="IfReindex" xml:space="preserve">
+    <value>Voulez-vous réindexer la base de données une fois la conversion terminée?</value>
+    <comment>d={Czy dokonać reindeksacji bazy danych po zakończeniu konwersji?} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+    <comment>d={Pytanie} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="UserGroupNotSetToCompanyUnit" xml:space="preserve">
+    <value>Aucun groupe d'utilisateurs n'est assigné au centre.</value>
+    <comment>d={Żadna grupa użytkownika nie jest przypisana do centrum} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="UpdateMutexAlreadyLocked" xml:space="preserve">
+    <value>Impossible de démarrer le système lors de la mise à jour.</value>
+    <comment>d={Nie można uruchomić systemu w czasie trwania aktualizacji.} a={iwona.czarnota}</comment>
+  </data>
+  <data name="InfoLoginToConfDatabaseFailed" xml:space="preserve">
+    <value>Échec de la connexion à la base de configuration. Veuillez taper le nom d'utilisateur et le mot de passe pour vous connecter.</value>
+    <comment>d={Logowanie do bazy konfiguracyjnej zakończyło się niepowodzeniem. Proszę podać nazwę użytkownka i hasło, by się zalogować.} a={Anna.Jedrychowska}</comment>
+  </data>
+  <data name="InfoLoginToConfDatabaseWithExplicitUser" xml:space="preserve">
+    <value>Une erreur de connexion à la base de configuration sélectionnée s'est produite. La base de configuration est indisponible ou les données de connexion sont incorrectes. Veuillez taper le nom d'utilisateur et le mot de passe et réessayez.</value>
+    <comment>d={Błąd połączenia z wybraną bazą konfiguracyjną. Baza konfiguracyjna jest niedostępna lub podano błędne dane do logowania. Proszę podać nazwę użytkownka oraz hasło i spróbować ponownie.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="AddShortcutOnDesktop" xml:space="preserve">
+    <value>Ajouter le raccourci au bureau {0}</value>
+    <comment>d={Dodaj skrót na pulpicie {0}} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="SessionNoLongerActive" xml:space="preserve">
+    <value>La session du logiciel a été interrompue. Le logiciel sera fermé.</value>
+    <comment>d={Sesja programu została przerwana. Program zostanie zamknięty.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="ApplicationButtonText" xml:space="preserve">
+    <value>Système</value>
+    <comment>d={System} a={monika.pasztor}</comment>
+  </data>
+  <data name="ApplicationExits" xml:space="preserve">
+    <value>L'application va se fermer.</value>
+    <comment>d={Aplikacja zakończy działanie.} a={monika.pasztor}</comment>
+  </data>
+  <data name="ExtensionFound" xml:space="preserve">
+    <value>Le logiciel a détecté que vous utilisez des extensions non standards du système.</value>
+    <comment>d={System wykrył, że wykorzystujesz niestandardowe rozszerzenia systemu.} a={monika.pasztor}</comment>
+  </data>
+  <data name="ExtensionLicenseNotFound" xml:space="preserve">
+    <value>Vous ne disposez pas de la licence d'extension du système.</value>
+    <comment>d={Niestety nie posiadasz licencji na rozszerzanie systemu.} a={monika.pasztor}</comment>
+  </data>
+  <data name="ConfigurationErrorsException" xml:space="preserve">
+    <value>Pas de droit de modification du fichier! Veuillez fermer l'application et redémarrez-la avec les droits appropriés.</value>
+    <comment>d={Brak uprawnień do modyfikacji pliku! Zamknij aplikację i uruchom ponownie z podwyższonymi uprawnieniami.} a={monika.pasztor}</comment>
+  </data>
+  <data name="LicenseLost" xml:space="preserve">
+    <value>Pas de licence utilisateur.</value>
+    <comment>d={Brak licencji użytkownika} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="LicenseLostText" xml:space="preserve">
+    <value>Appuyez sur OK pour réessayer d'obtenir la licence!</value>
+    <comment>d={Naciśnij OK aby ponowić próbę uzyskania licencji!} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="LogInAgainQuestion" xml:space="preserve">
+    <value>Vous êtes connecté à un autre poste de travail. Voulez-vous conserver les sessions actives?</value>
+    <comment>d={Jesteś zalogowany na innym stanowisku. Czy pozostawić aktywne sesje?} a={iwona.czarnota}</comment>
+  </data>
+  <data name="infoText" xml:space="preserve">
+    <value>Information</value>
+    <comment>d={Informacja} a={Monika.Mazurek}</comment>
+  </data>
+  <data name="LastSessionWasTerminated" xml:space="preserve">
+    <value>La session précédente de l'opérateur {0} a été interrompue. Pour plus d'informations, contactez l'administrateur du système.</value>
+    <comment>d={Poprzednia sesja operatora {0} została przerwana. W celu uzyskania szczegółowych informacji skontaktuj się z administratorem systemu.} a={Monika.Mazurek}</comment>
+  </data>
+  <data name="UserHasOpenSessions" xml:space="preserve">
+    <value>L'opérateur {0} a ouvert les sessions suivantes:</value>
+    <comment>d={Operator {0} ma otwarte sesje:} a={Monika.Mazurek}</comment>
+  </data>
+  <data name="UserSession" xml:space="preserve">
+    <value>({0}) sur le poste {1}</value>
+    <comment>d={({0}) na stanowisku {1}} a={Monika.Mazurek}</comment>
+  </data>
+  <data name="LicenseKeyError" xml:space="preserve">
+    <value>Erreur de clé de licence!</value>
+    <comment>d={Błąd klucza licencyjnego!} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="LicenseNotFound" xml:space="preserve">
+    <value>Les paramètres du service de licence sont incorrects ou la licence valide n'a pas été trouvée!</value>
+    <comment>d={Parametry usługi licencjonowania są nieprawidłowe lub nie znaleziono poprawnej licencji!} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="OperationCanceled" xml:space="preserve">
+    <value>L'opération a été annulée par l'utilisateur.</value>
+    <comment>d={Operacja anulowana przez użytkownika.} a={anna.jedrychowska}</comment>
+  </data>
+  <data name="NoActiveRetailCompanyUnits" xml:space="preserve">
+    <value>La filiale est inactive. Impossible de se connecter à Comarch Retail.</value>
+    <comment>d={Oddział jest nieaktywny. Nie można się zalogować do Comarch Retail.} a={iwona.czarnota}</comment>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Fermer</value>
+    <comment>d={Zamknij} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="ReadOnly" xml:space="preserve">
+    <value>Voulez-vous continuer en mode 'Lecture seule'?</value>
+    <comment>d={Czy chcesz kontynuować w trybie 'Tylko do odczytu'?} a={iwona.czarnota}</comment>
+  </data>
+  <data name="NipCheckFailed" xml:space="preserve">
+    <value>Vérification des n° TVA intra terminée avec une exception!</value>
+    <comment>d={Weryfikacja NIPów zakończyła sie wyjątkiem!} a={iwona.czarnota}</comment>
+  </data>
+  <data name="NipViolation" xml:space="preserve">
+    <value>La violation de l'unicité des n° TVA intra se produit dans le système!</value>
+    <comment>d={W systemie występuje naruszenie unikalności NIPów!} a={iwona.czarnota}</comment>
+  </data>
+  <data name="UnauthorizedAccess" xml:space="preserve">
+    <value>Échec de l'enregistrement de la configuration! Vous n'avez pas probablement les droits d'écriture sur le dossier de l'application.</value>
+    <comment>d={Zapis konfiguracji nie powiódł się! Prawdopodobnie nie posiadasz uprawnień do zapisu w katalogu aplikacji.} a={Iwona.Czarnota}</comment>
+  </data>
+  <data name="LicenseServerFormContinueButton" xml:space="preserve">
+    <value>Continuer</value>
+    <comment>d={Kontynuuj} a={Anna.Jedrychowska}</comment>
+  </data>
+  <data name="UserInactive" xml:space="preserve">
+    <value>Le compte de l'opérateur est inactif.</value>
+    <comment>d={Konto operatora jest nieaktywne.} a={iwona.czarnota}</comment>
+  </data>
+  <data name="LoginCannotLogIn" xml:space="preserve">
+    <value>Les données de l'utilisateur saisies sont incorrectes. Réessayez ou contactez l'administrateur du système.</value>
+    <comment>d={Wprowadzone dane Użytkownika są niepoprawne. Spróbuj ponownie lub skontaktuj się z administratorem systemu.} a={iwona.czarnota}</comment>
+  </data>
+  <data name="LoginPasswordExpired" xml:space="preserve">
+    <value>Le mot de passe a expiré.</value>
+    <comment>d={Upłynął termin ważności hasła.} a={iwona.czarnota}</comment>
+  </data>
+  <data name="LoginCannotChangePassword" xml:space="preserve">
+    <value>Impossible de modifier le mot de passe car les autres sessions sont ouvertes par l'opérateur.</value>
+    <comment>d={Nie można zmienić hasła, ponieważ operator ma otwarte inne sesje.} a={iwona.czarnota}</comment>
+  </data>
+  <data name="DigitalSignatureNotConfiguredErrorCaption" xml:space="preserve">
+    <value>Erreur de configuration de la signature électronique.</value>
+    <comment>d={Błąd konfiguracji podpisu cyfrowego.} a={Iwona.Czarnota}</comment>
+  </data>
+</root>
